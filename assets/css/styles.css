@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@400;900&display=swap');
+*{
+    margin: 0px;
+}
+:root{
+    --azulprimario: #2F58CD;
+    --azulverdoso: #3795BD;
+    --moradoOscuro: #3A1078;
+    --morado: #4E31AA;
+    --azulClaro1: #42C2FF;
+    --azulClaro2: #85F4FF;
+    --azulclaro3: #B8FFF9;
+    --azulmuyClaro: #EFFFFD;
+    --nivelNormal: #468B97;
+    --nivelAlto: #EF6262;
+    --nivelBajo: #F3AA60;
+}
+
+
+
+.Titles{
+    font-family: 'Aleo', serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+
+}
+
+.bodyMedium{
+    font-family: 'Aleo', serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+.bodyMediumSmall{
+    font-family: 'Aleo', serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+.body{
+    font-family: 'Aleo', serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal; 
+    margin: 0px;
+}
+
+.header{
+    height: 110px;
+    width: auto;
+    margin:0px;
+    background-color: var(--azulprimario);
+}
+
+
+.header h1{
+   padding: 25px;
+    color: white;
+}
+
+.header button {
+    
+    height: 20px;
+    background-color: var(--azulverdoso);
+    color: var(--azulmuyClaro);
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgb(120, 119, 119);
+
+}
+
+.header button:hover{
+    
+}
+
+.header img{
+    height: 100px;
+    
+    float: left;
+}
+
+.header button{
+    float: right;
+}

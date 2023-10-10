@@ -62,7 +62,7 @@ h1{
     margin-left: auto;/* Margen a la derecha para separar los botones del borde derecho del encabezado */
 }
 
-.logButtons button {
+.logButtons a {
     background-color: var(--azulClaro1);
     color: white;
     font-size: 16px;
@@ -74,10 +74,11 @@ h1{
     border-radius: 20px;
 }
 
-.logButtons button:hover {
+.logButtons a:hover {
     background-color: var(--azulClaro2);
     color: var(--moradoOscuro);
 }
+
 
 
 .navbar{
@@ -129,6 +130,8 @@ h1{
 
 .content{
     margin: 20px 20px 20px 20px;
+    height: 150vh;
+    
     
     
 }
@@ -208,9 +211,11 @@ h1{
 .popover-wrapper a{
      /* Hace que el párrafo ocupe todo el espacio vertical restante */
     
-    
+    color: white;
     margin: 0;
 }
+
+
 
 .popover-content::before{
     top: -30px;
@@ -241,7 +246,7 @@ h1{
     padding: 20px;
 }
 
-.prop button {
+.prop a {
     background-color: var(--azulClaro1);
     color: white;
     font-size: 16px;
@@ -255,7 +260,7 @@ h1{
     margin-right: 10px;
 }
 
-.prop button:hover {
+.prop a:hover {
     background-color: var(--azulClaro2);
     color: var(--moradoOscuro);
 }
@@ -296,7 +301,7 @@ h1{
     
     font-weight: 600;
     margin-top:20px;
-    font-size: 40px;
+    font-size: 35px;
     margin-left: 10px;
     color: var(--morado);
 }
@@ -312,14 +317,22 @@ h1{
 
 }
 
-.form h1{
-    font-size: 40px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+.expl{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.expl h1{
+    font-size: 35px;
+    padding-bottom: 30px;
+    
+}
+.expl p{
+    font-size: 16px;;
 }
 
 .form form{
-    font-size: 20px;
+    font-size: 16px;
     text-align: left;
     width: 100%;
     max-width: 700px;
@@ -335,7 +348,7 @@ h1{
     
 }
 
-.form input{
+.form input[type="text"]{
     width: 430px;
     height: fit-content;
     border-radius: 20px;
@@ -343,14 +356,62 @@ h1{
     padding: 10px;
     margin-bottom: 10px;
     font-family: 'Aleo', serif;
-
+    font-size: 16px; 
+}
+.form input[type="email"]{
+    width: 430px;
+    height: fit-content;
+    border-radius: 20px;
+    border: 1px solid var(--azulverdoso);
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: 'Aleo', serif;
+    font-size: 16px; 
+}
+.form input[type="password"]{
+    width: 430px;
+    height: fit-content;
+    border-radius: 20px;
+    border: 1px solid var(--azulverdoso);
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: 'Aleo', serif;
+    font-size: 16px; 
+}
+.form select{
+    width: 430px;
+    height: fit-content;
+    border-radius: 20px;
+    border: 1px solid var(--azulverdoso);
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: 'Aleo', serif;
+    font-size: 16px; 
+    background-color: var(--azulmuyClaro);
+}
+.form option{
+    width: 430px;
+    height: fit-content;
+    font-family: 'Aleo', serif;
+    font-size: 16px; 
     
+}
+
+.form input[type="number"]{
+    width: 70px;
+    height: fit-content;
+    border-radius: 20px;
+    border: 1px solid var(--azulverdoso);
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: 'Aleo', serif;
+    font-size: 16px; 
 }
 
 .form a{
     color: var(--azulverdoso);
     text-align: right;
-    font-size: 20px;
+    font-size: 16px;
     text-decoration: underline;
 }
 
@@ -364,13 +425,13 @@ h1{
     
 }
 .bottomLogin label{
-    font-size: 20px;
+    font-size: 16px;
     
 }
 
 .bottomLogin input[type="checkbox"]{
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
     border-color: var(--azulverdoso);
 }
 
@@ -403,7 +464,7 @@ h1{
 }
 
 .noAcc p{
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .noAcc a{

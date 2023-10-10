@@ -260,6 +260,158 @@ h1{
     color: var(--moradoOscuro);
 }
 
+/*LOG IN Y SIGN UP CONTAINERS*/
+.container{
+    display: flex;
+    width: 100%;
+    height: 150vh;
+}
+
+.left{
+    flex: 40%;
+    background-color: var(--azulverdoso);
+}
+
+.right{
+    flex: 60%;
+    background-color: var(--azulmuyClaro);
+
+}
+.nameandlogo{
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    border-bottom: 2px solid var(--azulverdoso);
+}
+
+.nameandlogo img {
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+
+.nameandlogo h1 {
+    
+    font-weight: 600;
+    margin-top:20px;
+    font-size: 40px;
+    margin-left: 10px;
+    color: var(--morado);
+}
+
+.form{
+    justify-content: center;
+    align-items: center;
+    
+    margin: 10px 100px 10px 100px;
+    padding-bottom: 150px;
+    border-bottom: 2px solid var(--azulverdoso);
+    
+
+}
+
+.form h1{
+    font-size: 40px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.form form{
+    font-size: 20px;
+    text-align: left;
+    width: 100%;
+    max-width: 700px;
+    
+    
+}
+
+.form label{
+    padding-right:20px;
+    padding-bottom: 10px;
+    display: inline-block;
+    width: 200px;
+    
+}
+
+.form input{
+    width: 430px;
+    height: fit-content;
+    border-radius: 20px;
+    border: 1px solid var(--azulverdoso);
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: 'Aleo', serif;
+
+    
+}
+
+.form a{
+    color: var(--azulverdoso);
+    text-align: right;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.bottomLogin{
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 30px 100px 10px 100px;
+    display: flex;
+    
+    
+}
+.bottomLogin label{
+    font-size: 20px;
+    
+}
+
+.bottomLogin input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    border-color: var(--azulverdoso);
+}
+
+.bottomLogin input[type="checkbox"]:checked{
+    background-color: var(--azulverdoso);
+    border-color: var(--azulverdoso);
+}
+.bottomLogin button {
+    background-color: var(--azulverdoso);
+    color: var(--azulmuyClaro);
+    font-size: 16px;
+    font-weight: 300;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bottomLogin button:hover {
+    background-color: var(--azulClaro2);
+    color: var(--moradoOscuro);
+}
+
+.noAcc{
+    margin: 30px 100px 90px 100px;
+    text-align: center;
+}
+
+.noAcc p{
+    font-size: 20px;
+}
+
+.noAcc a{
+    color: var(--azulverdoso);
+    text-decoration: underline;
+}
+/*HASTA AQUI VAN LOG IN Y SIGN UP CONTAINERS*/
+
 
 
 /*Para el footer dejar abajo para mas organizaciooon*/

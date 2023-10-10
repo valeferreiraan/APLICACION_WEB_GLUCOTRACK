@@ -38,8 +38,10 @@ margin: 55px 20px 20px 30px;
 
 
 
-.formRegistro {margin-top: 100px;
-    margin-left: 41%;
+.formRegistro {
+    margin-top: 100px;
+    margin-left: 20%;
+    margin-right:20%;
     padding: 20px;
     border-radius: 25px;
     background-color: var(--azulprimario);

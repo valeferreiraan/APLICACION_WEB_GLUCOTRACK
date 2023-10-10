@@ -282,12 +282,50 @@ h1{
 .left{
     flex: 40%;
     background-color: var(--azulverdoso);
+    margin-left: -150px;
 }
+/* Centrar el carrusel */
+#carouselExampleCaptions {
+    display: block;
+    margin: 0 auto;
+    padding: 100px 50px 50px 50px;
+  }
+  
+  .carousel-inner {
+    text-align: center;
+  }
+  .carousel-inner .carousel-item img {
+    opacity: 0.5; /* Ajusta el valor de opacidad según tus preferencias */
+  }
+  
+  
+  
+  /* Cambiar la fuente del texto dentro del carrusel */
+  #carouselExampleCaptions .carousel-caption h5{
+    font-family: 'Aleo', serif;
+    font-weight: 700;
+  }
+  #carouselExampleCaptions .carousel-caption p {
+    font-family: 'Aleo', serif; /* Reemplaza 'Aleo' con tu fuente deseada */
+  }
+  
+  /* Alinear el texto del carrusel al centro */
+  #carouselExampleCaptions .carousel-caption {
+    text-align: center;
+  }
+  
 
 .right{
     flex: 60%;
     background-color: var(--azulmuyClaro);
+    margin-right: -150px;
+    font-family:'Aleo', serif;
 
+}
+
+.espacio{
+
+    height: 80px;
 }
 .nameandlogo{
     padding: 10px 10px 10px 10px;
@@ -332,6 +370,7 @@ h1{
 .expl h1{
     font-size: 35px;
     padding-bottom: 30px;
+    font-weight: 600;
     
 }
 .expl p{
@@ -535,6 +574,8 @@ h1{
     margin: 30px ;
     text-align: center;
 }
+
+
 /*Para el footer dejar abajo para mas organizaciooon*/
 
 .footer{

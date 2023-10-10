@@ -1,0 +1,92 @@
+
+:root{
+    --azulprimario: #2F58CD;
+    --azulverdoso: #3795BD;
+    --moradoOscuro: #3A1078;
+    --morado: #4E31AA;
+    --azulClaro1: #42C2FF;
+    --azulClaro2: #85F4FF;
+    --azulclaro3: #B8FFF9;
+    --azulmuyClaro: #EFFFFD;
+    --nivelNormal: #468B97;
+    --nivelAlto: #EF6262;
+    --nivelBajo: #F3AA60;
+}
+
+
+.subheader{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://cuidadores.unir.net/images/7SintomasDiabetes.jpg');
+    background-position: 0% 30%;
+    color: #ffffff;
+    height: 180px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.ContenidoSubheader {width: 100%;
+background-color: rgba(55, 149, 189, 0.6);
+padding: 50px 20px 10px 90px;
+height: 120px;}
+
+.subheader img{float: left;
+height: 82px;
+margin: 55px 20px 20px 30px;
+}
+
+
+
+
+.formRegistro {margin-top: 100px;
+    margin-left: 41%;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: var(--azulprimario);
+text-align: center;
+color: #ffffff;
+box-shadow: 10px 10px 10px var(--morado);
+scale: 1.2;}
+
+.input-Nivel {width: 50px;}
+
+input {border-radius: 8px;
+border: none;}
+
+input:focus {border: none;
+outline: none;}
+
+.BotonAnimoBien {background-color: #468B97;
+outline: none;
+border: none;
+height: 20px;
+width: 20px;
+border-radius: 50%;box-shadow: 3px 3px 3px;}
+
+.BotonAnimoRegular {background-color: #F3AA60;
+    outline: none;
+    border: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;box-shadow: 3px 3px 3px;}
+
+.BotonAnimoMal {background-color: #EF6262;
+    outline: none;
+    border: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;box-shadow: 3px 3px 3px;}
+
+.botonRegistrar{font-family: 'Aleo', serif;
+background-color: #468B97;
+outline: none;
+border: none;
+padding: 5px;
+border-radius: 10%;
+color: #ffffff; font-size: large;}
+
+select {font-size: medium;
+border-radius: 8px;}
+
+select:focus{outline: none;}
+

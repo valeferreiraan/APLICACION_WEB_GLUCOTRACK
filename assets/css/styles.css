@@ -273,6 +273,12 @@ h1{
     height: 150vh;
 }
 
+.container-signup{
+    display: flex;
+    width: 100%;
+    height: 400vh;
+}
+
 .left{
     flex: 40%;
     background-color: var(--azulverdoso);
@@ -352,7 +358,7 @@ h1{
 .form input[type="text"]{
     width: 430px;
     height: fit-content;
-    border-radius: 20px;
+    border-radius: 15px;
     border: 1px solid var(--azulverdoso);
     padding: 10px;
     margin-bottom: 10px;
@@ -362,7 +368,7 @@ h1{
 .form input[type="email"]{
     width: 430px;
     height: fit-content;
-    border-radius: 20px;
+    border-radius: 15px;
     border: 1px solid var(--azulverdoso);
     padding: 10px;
     margin-bottom: 10px;
@@ -372,7 +378,7 @@ h1{
 .form input[type="password"]{
     width: 430px;
     height: fit-content;
-    border-radius: 20px;
+    border-radius: 15px;
     border: 1px solid var(--azulverdoso);
     padding: 10px;
     margin-bottom: 10px;
@@ -382,13 +388,13 @@ h1{
 .form select{
     width: 430px;
     height: fit-content;
-    border-radius: 20px;
+    border-radius: 15px;
     border: 1px solid var(--azulverdoso);
     padding: 10px;
     margin-bottom: 10px;
     font-family: 'Aleo', serif;
     font-size: 16px; 
-    background-color: var(--azulmuyClaro);
+    background-color: white;
 }
 .form option{
     width: 430px;
@@ -401,7 +407,7 @@ h1{
 .form input[type="number"]{
     width: 70px;
     height: fit-content;
-    border-radius: 20px;
+    border-radius:15px;
     border: 1px solid var(--azulverdoso);
     padding: 10px;
     margin-bottom: 10px;
@@ -414,6 +420,50 @@ h1{
     text-align: right;
     font-size: 16px;
     text-decoration: underline;
+}
+.insulinas p{
+    padding-bottom: 10px;
+}
+
+.ifInsulina{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ifInsulina input{
+    width: 130px !important;
+    height: fit-content;
+    border-radius: 15px;
+    border: 1px solid var(--azulverdoso);
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: 'Aleo', serif;
+    font-size: 16px; 
+}
+
+.ifInsulina select{
+    width: 130px ;
+    height: fit-content;
+    border-radius: 15px;
+    border: 1px solid var(--azulverdoso);
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: 'Aleo', serif;
+    font-size: 16px; 
+}
+
+.ifInsulina option{
+    height: fit-content;
+    font-family: 'Aleo', serif;
+    font-size: 16px; 
+}
+
+.meds{
+    padding-top: 10px;
+}
+.ifMeds{
+    
+    justify-content: space-between;
 }
 
 .bottomLogin{
@@ -440,7 +490,7 @@ h1{
     background-color: var(--azulverdoso);
     border-color: var(--azulverdoso);
 }
-.bottomLogin button {
+.bottomLogin a {
     background-color: var(--azulverdoso);
     color: var(--azulmuyClaro);
     font-size: 16px;
@@ -454,11 +504,15 @@ h1{
     margin-right: 10px;
 }
 
-.bottomLogin button:hover {
+.bottomLogin a:hover {
     background-color: var(--azulClaro2);
     color: var(--moradoOscuro);
 }
 
+#terminos{
+    color: var(--azulverdoso);
+    text-decoration: underline;
+}
 .noAcc{
     margin: 30px 100px 90px 100px;
     text-align: center;
@@ -475,7 +529,12 @@ h1{
 /*HASTA AQUI VAN LOG IN Y SIGN UP CONTAINERS*/
 
 
-
+.homeContent{
+    width: 100%;
+    height: 150vh;
+    margin: 30px ;
+    text-align: center;
+}
 /*Para el footer dejar abajo para mas organizaciooon*/
 
 .footer{

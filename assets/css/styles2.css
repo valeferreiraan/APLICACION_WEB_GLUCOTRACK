@@ -52,7 +52,22 @@ margin: 55px 20px 20px 30px;
     margin: 55px 20px 20px 30px;
     }
 
+.subheaderHome{background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://consultorsalud.com/wp-content/uploads/2022/12/shutterstock_1726536925.jpg');
+    background-position: 0% 50%;
+    color: #ffffff;
+    height: 180px;
+    overflow-x: hidden;
+    overflow-y: hidden;
 
+}
+
+.subheaderHome img{float: left;
+    height: 82px;
+    margin: 55px 20px 20px 30px;
+
+}
 
 
 .formRegistro {margin-top: 100px;

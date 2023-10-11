@@ -5,11 +5,62 @@
     <meta name="Proyecto" content="signup">
     <title>Crear una cuenta</title>
     <link rel="stylesheet" type="text/css" href="../assets/css/styles.css">
+
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> 
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
 </head>
 <body>
-    <div class="container">
+    <div class="container container-signup">
         <div class="left">
-            <p> Aquí va el slider c:</p>
+            <div class="espacio">
+                
+            </div>
+            <div id="carouselExampleCaptions" class="carousel slide mx-auto"> <!-- Agregar esta clase para centrar horizontalmente -->
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="../assets/img/control.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Llevar control</h5>
+                          <p>En GlucoTrack puedes llevar control de tus medidas y ver el comportamiento de tu nivel de glucosa</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../assets/img/comidas.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Registro de alimentación</h5>
+                          <p>En GlucoTrack puedes llevar control de tu alimentación y ver la relación con tu nivel de glucosa.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../assets/img/insulina.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Recordatorios</h5>
+                          <p>En GlucoTrack puedes tener recordatorios para aplicarte la insulina en los tiempos indicados.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+              </div>
         </div>
         <div class="right">
             <div class = "nameandlogo">
@@ -76,25 +127,96 @@
                     <br>
 
                     <label for="passw">Contraseña</label>
-                    <input type="password" name="pass" id="password">
+                    <input type="password" name="pass" id="passw">
+
+                    <br><br>
+
+                    <label for="Confpassw">Confirma tu contraseña</label>
+                    <input type="password" name="passconf" id="Confpass">
+                    <br><br>
+                    <p>
+                        Para una mejor experiencia, te preguntaremos algunos datos sobre tu salud.
+                    </p>
+                    <br><br>
+                </form>
+
+                <form name="healthInfo" action="../index.html">
+                    <label for="med">
+                        Médico/a
+                    </label>
+                    <input type="text" name="med" id="med">
+                    <br>
+                    <br>
+                    <label for="email">
+                        E-mail
+                    </label>
+                    <input type="email" name="email" id="email">
+                    <br><br>
+                    <label for="insulina">¿Te aplicas insulina?</label>
+                    <input id="insulinayes" type="radio" 
+                    name="insulina"> Sí
+                    <input id="insulinano" type="radio" name="insulina"> No
+
+                    <br><br>    
+                    <!---
+                    <div class="insulinas">
+                        <p>Agrega las insulinas que utilizas</p>
+                        <div class="ifInsulina">
+                            <input type="text" name="nombreInsulina" placeholder="Nombre">
+
+                            <input type="number" name="cantidadInsulina" placeholder="Cantidad">
+
+                            <select id = "pais" nombre = "Horario">
+                                <option value="0" selected="">
+                                    Horario
+                                </option>
+                                <option value="desayuno">
+                                    En el desayuno
+                                </option>
+                                <option value="almuerzo">
+                                    En el almuerzo
+                                </option>
+                                <option value="comida">
+                                    En la comida
+                                </option>
+                                <option value="dormir">
+                                    Antes de dormir
+                                </option>
+                            
+
+                        </div>
+                        
+
+                    </div>
+
+                    <br><br>
+                    --->
+
+                    
 
                 </form>
-                <a href="#">¿Olvidaste la contraseña?</a>
+                
             </div>
+
             <div class = "bottomLogin">
                 <div>
                     <input type="checkbox" id="remindMe" value="remindMe">
-                    <label for="remindMe">Recordarme</label>
+                    <label for="remindMe">Estoy de acuerdo y he leído los <span id="terminos">
+                        Términos y condiciones
+                    </span> </label>
                 </div>
                 
-                    <button>
+                    <a href="#">
                         Iniciar Sesión
-                    </button>
+                    </a>
                 
             </div>
             <div class="noAcc">
-                <p>¿Ya tienes una cuenta? <a href="#">Iniciar Sesión</a></p>
+                <p>¿Ya tienes una cuenta? <a href="../views/login.html">Inicia sesión</a></p>
             </div>
+
+
+            
             
         </div>
     </div>

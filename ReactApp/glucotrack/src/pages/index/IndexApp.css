@@ -1,0 +1,23 @@
+.content{
+    margin: 20px 20px 20px 20px;
+    height: 100vh;
+}
+
+.content h1{
+    text-align: center;
+    color: var(--morado);
+    font-weight: bold;
+}
+
+.services{
+    display: flex;
+    margin: 20px 20px 20px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caja2{
+    background-color: var(--azulprimario);
+    
+
+}

@@ -1,5 +1,6 @@
 import Logo from './logo.png';
 import './Header.css';
+import Login from '../../pages/login/Login';
 
 function Header(){
     return(
@@ -12,7 +13,7 @@ function Header(){
         </div>
         <div className="logButtons">
             
-                <a href="#">Iniciar Sesión</a>
+                <a href='../../pages/login/Login'>Iniciar Sesión</a>
             
                 <a href="#"> Registrarse </a>
         </div>

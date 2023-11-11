@@ -1,4 +1,5 @@
 import './Nav.css';
+import Login from '../../pages/login/Login';
 
 function Nav(){
     return(
@@ -7,7 +8,7 @@ function Nav(){
                 <a href="#">Inicio</a>
             </div>
             <div className="nav-link">
-                <a href="./views/login.html">Nueva Medida</a>
+                <a href={Login}>Nueva Medida</a>
             </div>
             <div className="nav-link">
                 <a href="./views/login.html">Historial glucosa</a>

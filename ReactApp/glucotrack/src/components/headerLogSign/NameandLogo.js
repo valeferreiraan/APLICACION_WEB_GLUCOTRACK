@@ -9,3 +9,5 @@ function NameandLogo(){
         </div>
     )
 }
+
+export default NameandLogo;

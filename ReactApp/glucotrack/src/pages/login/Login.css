@@ -4,6 +4,11 @@
     height: 150vh;
 }
 
+.container-signup{
+    height: 250vh;
+
+}
+
 
 
 .left{
@@ -27,6 +32,11 @@
    
     
 
+}
+
+.signupForm{
+    padding-bottom: 3% !important;
+    border-bottom: 2px solid var(--azulverdoso)
 }
 
 .expl{

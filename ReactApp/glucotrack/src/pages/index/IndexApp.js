@@ -8,11 +8,12 @@ import info2 from './img/2.png';
 import info3 from './img/3.png';
 import info4 from './img/reminders.png';
 import info5 from './img/medicalattention.png';
-
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
 
 
 function IndexApp(){
     return(
+        
         <div>
             <Header />
             <Nav />

@@ -26,7 +26,7 @@ function Login(){
                <div class = "bottomLogin">
                 <div>
                     <input type="checkbox" id="remindMe" value="remindMe"/>
-                    <label for="remindMe">Recordarme</label>
+                    <label for="remindMe"> Recordarme</label>
                 </div>
                 
                     <a href="./home.html">

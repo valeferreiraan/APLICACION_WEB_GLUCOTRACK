@@ -1,7 +1,6 @@
 import './Nav.css';
 import Login from '../../pages/login/Login';
-import {Link} from "react-router-dom"
-    
+import {Link} from "react-router-dom";
 
 
 function Nav(){
@@ -13,14 +12,21 @@ function Nav(){
                 </a>
             </div>
             <div className="nav-link">
-                <a href={Login}>Nueva Medida</a>
+                <a>
+                   <Link to="/login">Nueva Medida</Link>
+                </a>
             </div>
             <div className="nav-link">
-                <a href="./views/login.html">Historial glucosa</a>
+                <a>
+                   <Link to="/login">Historial Glucosa</Link>
+                </a>
             </div>
             <div className="nav-link">
-                <a href="./views/login.html">Alimentación</a>
+                <a>
+                   <Link to="/alimentacion">Alimentación</Link>
+                </a>
             </div>
+
             <div className="nav-link">
                 <a>
                     <Link to="/login">Salud</Link>

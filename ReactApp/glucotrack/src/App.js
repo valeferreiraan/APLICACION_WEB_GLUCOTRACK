@@ -6,6 +6,9 @@ import IndexApp from './pages/index/IndexApp';
 
 import Login from './pages/login/Login';
 import SignUp from './pages/login/Signup';
+import Alimentacion from './pages/alimentacion/Alimentacion'
+
+
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -16,7 +19,7 @@ function App() {
    
       <Route path="/" element={<IndexApp  />} />
       <Route path="/login" element={<Login  />} />
-      
+      <Route path="/alimentacion" element={<Alimentacion  />} />
       
     
     </Routes>

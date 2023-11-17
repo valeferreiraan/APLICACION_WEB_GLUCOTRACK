@@ -1,9 +1,9 @@
 import './cardInfo.css';
 
-function CardInfo({image, title, text1, popover, backgroundColor}){
+function CardInfo({image, title, text1, popover, color}){
     
     const cardStyle = {
-        backgroundColor,
+        backgroundColor: `${color}`,
     };
 
     return(

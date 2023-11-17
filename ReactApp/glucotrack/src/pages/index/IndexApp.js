@@ -24,7 +24,7 @@ function IndexApp(){
                         title = 'Agrega tus medidas'
                         text1= ' ¡Al momento que lo hagas! Registra tus medidas para tener control de tus niveles de azúcar.'
                         popover='Puedes ponerla al momento de medirte, o después y poner la hora.'
-                        backgroundColor='azulClaro1'
+                        color='var(--azulprimario)'
                     />
 
                     <CardInfo 
@@ -56,7 +56,7 @@ function IndexApp(){
                         title = 'Atención médica'
                         text1= 'Todo más fácil, manda directamente a tu médico/a tus niveles de azúcar para agilizar las consultas.'
                         popover='En casos de emergencia, cuando el azúcar está muy alta o muy baja, nos podemos poner en contacto con tu médico/a. '
-                        backgroundColor='azulClaro1'
+                        backgroundColor='var(--azulClaro1)'
                     />
 
 

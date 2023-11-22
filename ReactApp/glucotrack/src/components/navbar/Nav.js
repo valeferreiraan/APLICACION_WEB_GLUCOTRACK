@@ -6,7 +6,7 @@ import {Link} from "react-router-dom";
 function Nav(){
     return(
         <nav className = "navbar">
-            <div className="nav-link nav-linkOn">
+            <div className="nav-link">
                 <a>
                     <Link to="/">Inicio</Link>
                 </a>

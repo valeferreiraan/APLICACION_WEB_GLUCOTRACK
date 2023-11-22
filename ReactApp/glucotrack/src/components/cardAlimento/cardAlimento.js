@@ -9,7 +9,7 @@ function cardAlimento({image, title}){
     return(
         <div className="cardAlimento" id="cardAlimento" style={cardStyle}>
             <div className="Alimento">
-                <h3>{title}</h3>
+                <h2>{title}</h2>
             </div>
         </div>
     )

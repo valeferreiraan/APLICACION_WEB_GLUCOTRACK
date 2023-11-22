@@ -16,10 +16,10 @@ body{
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the size as needed */
-    grid-gap: 20px; /* Adjust the gap between squares */
-    margin: 10% 5%;
-    max-width: 1000px;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); /* Adjust the size as needed */
+    grid-gap: 40px; /* Adjust the gap between squares */
+    margin: 5% 0%;
+    max-width: 1300px;
   }
 
 
@@ -36,6 +36,12 @@ body{
     transition: opacity 0.3s ease; /* Transition for opacity */
   }
 
+  @media (max-width: 1536px) {
+    .grid {
+      grid-template-columns: repeat(3, minmax(100px, 2fr));
+    }
+  }
+  
   @media (max-width: 768px) {
     .grid {
       grid-template-columns: repeat(2, minmax(100px, 2fr));

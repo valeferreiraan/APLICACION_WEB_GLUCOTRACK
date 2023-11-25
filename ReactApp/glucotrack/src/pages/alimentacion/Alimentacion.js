@@ -7,6 +7,8 @@ import Subheader from '../../components/subheader/subheader';
 
 import IconBook from './img/food-menu-solid-84.png'
 
+import ProgressComponent from '../../components/progressComponent/ProgressComponent;';
+
 function Alimentacion(){
     return(
     <div>
@@ -28,7 +30,7 @@ function Alimentacion(){
                 <CardAlimento image='https://www.naturalcastello.com/wp-content/uploads/2019/08/pescados-tipos-propiedades-992x448.jpg' 
                 title = 'Pescado'/>
 
-                <CardAlimento image='https://www.cocinayvino.com/wp-content/uploads/2020/08/www.cocinayvino.com-los-huevos-son-una-valiosa-fuente-de-nutrientes-huevos1-e1684325245917.jpg'
+                <CardAlimento image='https://thefoodtech.com/wp-content/uploads/2020/06/huevo-828x548.jpg'
                 title = 'Huevo'/>
 
                 <CardAlimento image='https://telemedellin.tv/wp-content/uploads/2022/10/por-que-el-pan-se-pone-duro.jpg'
@@ -44,19 +46,24 @@ function Alimentacion(){
                 <CardAlimento image='https://phantom-marca.unidadeditorial.es/f26736e71a6bfb79e3a2b0c631a1bf4e/resize/828/f/jpg/assets/multimedia/imagenes/2023/05/30/16854588843943.jpg'
                 title = 'Verduras'/>
 
-                <CardAlimento image={Imgcarne} 
+                <CardAlimento image='https://institutodeobesidad.com/wp-content/uploads/2018/02/IMAGEN-16555558-2.jpg' 
                 title = 'Granos'/>
 
-                <CardAlimento image={Imgcarne} 
+                <CardAlimento image='https://d100mj7v0l85u5.cloudfront.net/s3fs-public/styles/webp/public/2023-03/asi-esta-el-mercado-de-dulces-en-colombia.png.webp?itok=rAFhU52j'
                 title = 'Dulces'/>
 
-                <CardAlimento image={Imgcarne} 
+                <CardAlimento image='https://imagenes.20minutos.es/files/image_640_360/uploads/imagenes/2023/05/16/comida-rapida.jpeg'
                 title = 'Comida rápida'/>
 
-                <CardAlimento image={Imgcarne} 
+                <CardAlimento image='https://thefoodtech.com/wp-content/uploads/2022/06/industria_de_bebidas_1-828x548.jpg'
                 title = 'Bebidas'/>
             </div>
         </div>
+
+        <div className='containerResumen'>
+            <ProgressComponent cal = '1500' sug = '60' carb='50'/>
+        </div>
+
     </div>)
 }
 

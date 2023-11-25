@@ -6,6 +6,7 @@
     max-height: 300px;
     overflow-x: hidden;
     overflow-y: hidden;
+    margin-bottom: 2em;
 }
 
 .ContenidoSubheader {width: 100%;

@@ -14,11 +14,10 @@ function Alimentacion(){
     <div>
         <Header />
         <Nav />
-        <Subheader image ='https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg/1200px-Good_Food_Display_-_NCI_Visuals_Online.jpg' 
+        <Subheader image ='https://s1.eestatic.com/2023/10/03/vivir/799180512_236508436_1706x960.jpg' 
         title='Alimentación'
         subtitle='Registra los alimentos que consumes'
         icon={IconBook}/>
-        
         <div className="containerGrid">
             <div className="grid">
                 <CardAlimento image={Imgcarne} 
@@ -61,7 +60,7 @@ function Alimentacion(){
         </div>
 
         <div className='containerResumen'>
-            <ProgressComponent cal = '1500' sug = '60' carb='50'/>
+            <ProgressComponent cal = '1500' sug = '30' carb='100'/>
         </div>
 
     </div>)

@@ -1,3 +1,19 @@
+:root{
+  --azulprimario: #2F58CD;
+  --azulverdoso: #3795BD;
+  --moradoOscuro: #3A1078;
+  --morado: #4E31AA;
+  --azulClaro1: #42C2FF;
+  --azulClaro2: #85F4FF;
+  --azulclaro3: #B8FFF9;
+  --azulmuyClaro: #EFFFFD;
+  --nivelNormal: #468B97;
+  --nivelAlto: #EF6262;
+  --nivelBajo: #F3AA60;
+
+  --grisShadows: #707070;
+}
+
 .cardAlimento {
     position: relative;
     width: 250px; 
@@ -34,3 +50,52 @@
 h2 {
     margin: 0;
   }
+
+.Selector{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:var(--azulverdoso);
+  padding: 20px;
+  border-radius: 11px;
+}
+
+.containerSelector{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1em;
+  max-width: 250px;
+}  
+
+.titleSelector{
+  color: white;
+}
+
+.buttonSelector{
+  display: flex;
+  justify-content: center;
+}
+
+.inputSelectorAlimento{
+  width: 50%;
+  height: 30px;
+  text-align: center;
+}
+
+.buttonConfirmar{
+  margin-top: 10px;
+  font-family: 'Aleo', serif;
+  color: white;
+  background-color: var(--azulprimario);
+  border: none;
+  padding: 10px;
+  border-radius: 11px;
+  transition: 0.3s;
+}
+
+.buttonConfirmar:hover{
+  background-color: var(--azulClaro1);
+}

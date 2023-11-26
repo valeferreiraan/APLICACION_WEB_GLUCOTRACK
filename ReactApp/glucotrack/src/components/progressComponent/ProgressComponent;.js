@@ -1,5 +1,6 @@
 import { CircularProgress, Container, Grid } from '@mui/material';
 import './ProgressComponent.css'
+import {Link} from "react-router-dom";
 
 
 const CircularProgressBar = ({ value }) => {
@@ -50,11 +51,15 @@ const ProgressComponent = ({cal,sug,carb}) => {
         </Grid>
       </Container>
 
+      <a>
+        <Link to='./registro'>
       <div className='containerBoton'>
         <div className='botonResumen'>
           <h3>Ver registro completo</h3>
         </div>
       </div>
+        </Link>
+      </a>
 
     </div>
   );

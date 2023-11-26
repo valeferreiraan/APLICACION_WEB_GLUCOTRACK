@@ -60,7 +60,7 @@ function Alimentacion(){
         </div>
 
         <div className='containerResumen'>
-            <ProgressComponent cal = '1900' sug = '30' carb='100'/>
+            <ProgressComponent cal = '2000' sug = '30' carb='100'/>
         </div>
 
     </div>)

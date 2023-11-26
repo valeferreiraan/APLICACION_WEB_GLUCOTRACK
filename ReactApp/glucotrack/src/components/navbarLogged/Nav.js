@@ -13,7 +13,7 @@ function Nav(){
             </div>
             <div className="nav-link">
                 
-                   <Link to="/login">Nueva Medida</Link>
+                   <Link to="/nuevaMedida">Nueva Medida</Link>
                 
             </div>
             <div className="nav-link">

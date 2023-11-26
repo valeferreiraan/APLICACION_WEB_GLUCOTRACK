@@ -1,6 +1,6 @@
 import './Alimentacion.css'
-import Header from '../../components/headerLogged/Header';
-import Nav from '../../components/navbarLogged/Nav'
+import Header from '../../components/header/Header';
+import Nav from '../../components/navbar/Nav'
 import CardAlimento from '../../components/cardAlimento/cardAlimento'
 import Imgcarne from './img/carne.jpg'
 import Subheader from '../../components/subheader/subheader';

@@ -1,5 +1,5 @@
 import './RegistroAlimentacion.css'
-import Header from '../../components/header/Header';
+import Header from '../../components/headerLogged/Header';
 import Nav from '../../components/navbarLogged/Nav'
 import Subheader from '../../components/subheader/subheader';
 

@@ -4,9 +4,28 @@
 
 .Subtitle-registroAlimentacion h1{
     color: black;
-    
+    line-height: 1;
 }
 
 .Subtitle-registroAlimentacion h2{
+    padding-top: 1rem;
+    padding-left: 1rem;
     color: black;
+}
+
+
+.backArrow{
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+
+.boxPrincipal{
+    display: flex;
+    align-items: center;
+}
+
+.containerTabla{
+    display: flex;
+    justify-content: center;
 }

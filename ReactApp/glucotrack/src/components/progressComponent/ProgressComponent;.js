@@ -51,15 +51,17 @@ const ProgressComponent = ({cal,sug,carb}) => {
         </Grid>
       </Container>
 
+      
+      <div className='containerBoton'>
       <a>
         <Link to='./registro'>
-      <div className='containerBoton'>
         <div className='botonResumen'>
           <h3>Ver registro completo</h3>
         </div>
-      </div>
         </Link>
       </a>
+      </div>
+       
 
     </div>
   );

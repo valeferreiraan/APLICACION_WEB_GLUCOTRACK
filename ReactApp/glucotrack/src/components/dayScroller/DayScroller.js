@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import './DayScroller.css';
 
 const daysData = Array.from({ length: 30 }, (_, i) => ({

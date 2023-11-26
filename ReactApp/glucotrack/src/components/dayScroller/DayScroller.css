@@ -1,3 +1,19 @@
+:root{
+  --azulprimario: #2F58CD;
+  --azulverdoso: #3795BD;
+  --moradoOscuro: #3A1078;
+  --morado: #4E31AA;
+  --azulClaro1: #42C2FF;
+  --azulClaro2: #85F4FF;
+  --azulclaro3: #B8FFF9;
+  --azulmuyClaro: #EFFFFD;
+  --nivelNormal: #468B97;
+  --nivelAlto: #EF6262;
+  --nivelBajo: #F3AA60;
+
+  --grisShadows: #707070;
+}
+
 .day-scroller-container {
     display: flex;
     align-items: center;
@@ -20,7 +36,7 @@
   }
   
   .day-scroller::-webkit-scrollbar-thumb {
-    background-color: #3498db; 
+    background-color: var(--azulClaro1);
     border-radius: 6px;
   }
   
@@ -34,7 +50,7 @@
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-color: #3498db;
+    background-color: var(--azulClaro1);
     color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -47,13 +63,13 @@
   }
   
   .menu-item:hover {
-    background-color: #2980b9;
+    background-color: var(--azulprimario);
   }
   
   .scroll-button {
     font-size: 30px;
     cursor: pointer;
-    color:#2980b9;
+    color:var(--azulClaro1);
     background-color: rgba(0,0,0,0);
     border: none;
   }

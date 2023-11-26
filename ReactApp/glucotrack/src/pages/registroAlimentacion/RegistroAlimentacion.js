@@ -1,4 +1,4 @@
-
+import './RegistroAlimentacion.css'
 import Header from '../../components/header/Header';
 import Nav from '../../components/navbar/Nav'
 import Subheader from '../../components/subheader/subheader';
@@ -17,7 +17,10 @@ function RegistroAlimentacion(){
             title='Alimentación'
             subtitle='Registra los alimentos que consumes'
             icon={IconBook}/>
-
+            <div className='Subtitle-registroAlimentacion'>
+                <h1>Registro completo de alimentación</h1>
+                <h2>Aquí encontrarás un informe detallado sobre los alimentos registrados</h2>
+            </div>
             <DayScroller />
         </div>
     )

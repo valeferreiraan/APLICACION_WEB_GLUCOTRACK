@@ -9,7 +9,7 @@ import SignUp from './pages/login/Signup';
 import Home from './pages/home/home';
 import Alimentacion from './pages/alimentacion/Alimentacion'
 import RegistroAlimentacion from './pages/registroAlimentacion/RegistroAlimentacion';
-
+import NuevaMedida from './pages/nuevaMedida/NuevaMedida';
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
@@ -25,7 +25,7 @@ function App() {
       <Route path="/home" element={<Home/>}/>
       <Route path="/alimentacion" element={<Alimentacion  />} />
       <Route path='/alimentacion/registro' element={<RegistroAlimentacion  />} />
-    
+      <Route path='/nuevaMedida' element={<NuevaMedida/>}/>
     </Routes>
     </BrowserRouter>
     </div>

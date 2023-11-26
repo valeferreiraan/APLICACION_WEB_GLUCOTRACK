@@ -1,0 +1,124 @@
+.formRegistro {margin-top: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #B8FFF9;
+text-align: center;
+color: #000000;
+box-shadow: 10px 10px 10px rgb(85, 84, 84);
+scale: 1.2;}
+
+.input-Nivel {width: 50px; text-align: center;
+margin-right: 1.5%;}
+
+.form-select{
+    background-color: var(--azulmuyClaro);
+    font-family: 'Aleo', serif;
+}
+
+input {border-radius: 8px;
+border: none;}
+
+input:focus {border: none;
+outline: none;}
+
+.BotonAnimoBien {background-color: #468B97;
+outline: none;
+border: none;
+height: 20px;
+width: 20px;
+border-radius: 50%;box-shadow: 3px 3px 3px;}
+
+.BotonAnimoRegular {background-color: #F3AA60;
+    outline: none;
+    border: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;box-shadow: 3px 3px 3px;}
+
+.BotonAnimoMal {background-color: #EF6262;
+    outline: none;
+    border: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;box-shadow: 3px 3px 3px;}
+
+.botonRegistrar{
+    background-color: var(--azulverdoso);
+    color: var(--azulmuyClaro);
+    font-size: 16px;
+    font-weight: 300;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+font-family: 'Aleo', serif;
+}
+
+.botonRegistrar:hover{
+    background-color: var(--azulClaro2);
+    color: var(--moradoOscuro);
+}
+
+select {font-size: medium;
+border-radius: 8px;}
+
+select:focus{outline: none;}
+
+
+/* Estilos del Modal */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-contenido {
+    width: 300px;
+    height: 200px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background: var(--azulmuyClaro);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .modal-contenido button{
+    background-color: var(--azulverdoso);
+    color: var(--azulmuyClaro);
+    font-size: 16px;
+    font-weight: 300;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+font-family: 'Aleo', serif;
+
+  }
+
+  .modal-contenido button:hover{
+    background-color: var(--azulClaro2);
+    color: var(--moradoOscuro);
+  }
+
+  .modal-contenido img{
+    padding-left: 25%;
+    padding-right: 50%;
+  }

@@ -5,6 +5,7 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+    color: black;
 }
 
 
@@ -35,6 +36,8 @@ body{
     opacity: 0; /* Set initial opacity to 0 */
     transition: opacity 0.3s ease; /* Transition for opacity */
   }
+
+
 
   @media (max-width: 1536px) {
     .grid {

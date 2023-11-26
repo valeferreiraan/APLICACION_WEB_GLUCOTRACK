@@ -1,7 +1,7 @@
 .container{
     display: flex;
     width: 100%;
-    height: 150vh;
+    height: 250vh;
 }
 
 .container-signup{
@@ -28,7 +28,7 @@
 .form{
     justify-content: center;
     align-items: center;
-    margin: 5% 15% 5% 20%;
+    margin: 5% 10% 5% 10%;
    
     
 
@@ -48,6 +48,7 @@
     font-size: 35px;
     padding-bottom: 30px;
     font-weight: 600;
+    color: black;
     
 }
 .expl p{
@@ -58,6 +59,8 @@
 .bottomLogin{
     justify-content: space-between;
     align-items: center;
+    border-top: 2px solid var(--azulverdoso);
+    padding-top: 2%;
     
     margin: 30px 100px 10px 100px;
     display: flex;
@@ -103,6 +106,57 @@
     color: var(--azulverdoso);
     text-decoration: underline;
 }
+
+
+
+/*Para sign up*/
+
+.bottomSignup{
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    margin: 30px 100px 10px 100px;
+    display: flex;
+    
+    
+}
+.bottomSignup label{
+    font-size: 16px;
+    
+}
+
+.bottomSignup input[type="checkbox"]{
+    width: 16px;
+    height: 16px;
+    border-color: var(--azulverdoso);
+}
+
+.bottomSignup input[type="checkbox"]:checked{
+    background-color: var(--azulverdoso);
+    border-color: var(--azulverdoso);
+}
+.bottomSignup a {
+    background-color: var(--azulverdoso);
+    color: var(--azulmuyClaro);
+    font-size: 16px;
+    font-weight: 300;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.bottomSignup a:hover {
+    background-color: var(--azulClaro2);
+    color: var(--moradoOscuro);
+}
+
+
 .noAcc{
     margin: 30px 100px 90px 100px;
     text-align: center;

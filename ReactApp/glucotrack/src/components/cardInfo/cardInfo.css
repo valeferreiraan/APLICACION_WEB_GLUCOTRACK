@@ -1,6 +1,6 @@
 .cajaprincipal{
-    width: 270px;
-    height: 350px;
+    width: 300px;
+    height: 400px;
     background-color: var(--azulClaro1);
     color: #ffffff;
     margin: 20px auto;
@@ -39,6 +39,7 @@
 .popover-wrapper{
     padding: 10px;
     text-align: center;
+   
 }
 
 .popover-content{
@@ -58,6 +59,11 @@
     
     color: white;
     margin: 0;
+    
+   
+   
+    
+    
 }
 
 

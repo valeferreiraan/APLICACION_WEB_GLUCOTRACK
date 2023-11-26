@@ -6,6 +6,7 @@ import IndexApp from './pages/index/IndexApp';
 
 import Login from './pages/login/Login';
 import SignUp from './pages/login/Signup';
+import Home from './pages/home/home';
 import Alimentacion from './pages/alimentacion/Alimentacion'
 import RegistroAlimentacion from './pages/registroAlimentacion/RegistroAlimentacion';
 
@@ -20,6 +21,8 @@ function App() {
    
       <Route path="/" element={<IndexApp  />} />
       <Route path="/login" element={<Login  />} />
+      <Route path="/signup" element={<SignUp  />} />
+      <Route path="/home" element={<Home/>}/>
       <Route path="/alimentacion" element={<Alimentacion  />} />
       <Route path='/alimentacion/registro' element={<RegistroAlimentacion  />} />
     

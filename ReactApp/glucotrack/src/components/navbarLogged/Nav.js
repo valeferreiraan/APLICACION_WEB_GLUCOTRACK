@@ -8,7 +8,7 @@ function Nav(){
         <nav className = "navbar">
             <div className="nav-link">
                 
-                    <Link to="/">Inicio</Link>
+                    <Link to="/home">Inicio</Link>
                 
             </div>
             <div className="nav-link">
@@ -23,7 +23,7 @@ function Nav(){
             </div>
             <div className="nav-link">
                 
-                   <Link to="/login">Alimentación</Link>
+                   <Link to="/alimentacion">Alimentación</Link>
                 
             </div>
 

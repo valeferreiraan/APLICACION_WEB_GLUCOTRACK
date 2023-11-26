@@ -3,6 +3,9 @@ import NameandLogo from '../../components/headerLogSign/NameandLogo';
 import SignupForm from '../../components/signupForm/SignupForm';
 import MedForm from '../../components/signupForm/medForm';
 
+
+import {Link} from "react-router-dom";
+
 function SignUp(){
     return(
         <div className='container container-signup'>
@@ -29,7 +32,7 @@ function SignUp(){
                     <MedForm/>
                     
                 </div>
-                <div class = "bottomLogin">
+                <div class = "bottomSignup">
                 <div>
                     <input type="checkbox" id="remindMe" value="remindMe"/>
                     <label for="remindMe"> Estoy de acuerdo y he leído los <span id="terminos">
@@ -43,7 +46,7 @@ function SignUp(){
                 
             </div>
             <div class="noAcc">
-                <p>¿Ya tienes una cuenta? <a href="../views/login.html">Inicia sesión</a></p>
+                <p>¿Ya tienes una cuenta? <Link to="/login">Inicia sesión</Link></p>
             </div>
 
 

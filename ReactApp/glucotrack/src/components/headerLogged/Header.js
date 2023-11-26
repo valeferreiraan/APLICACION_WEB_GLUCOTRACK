@@ -15,11 +15,11 @@ function Header(){
         <div className="logButtons">
             
                 
-                    <Link to="/login">Iniciar Sesión</Link>
+                    <Link to="/">Cerrar sesión</Link>
                     
                 
             
-                <Link to="/signup"> Registrarse </Link>
+                
         </div>
         </header>
     )

@@ -3,6 +3,8 @@ import './Login.css';
 import NameandLogo from '../../components/headerLogSign/NameandLogo';
 import LoginForm from '../../components/loginForm/LoginForm';
 
+import {Link} from "react-router-dom";
+
 function Login(){
     return(
         <div className="container">
@@ -29,13 +31,13 @@ function Login(){
                     <label for="remindMe"> Recordarme</label>
                 </div>
                 
-                    <a href="./home.html">
+                    <Link to="/home">
                         Iniciar Sesión
-                    </a>
+                    </Link>
                 
             </div>
             <div class="noAcc">
-                <p>¿No tienes una cuenta aún? <a href="signup.html">Regístrate aquí</a></p>
+                <p>¿No tienes una cuenta aún? <Link to = "/signup">Regístrate aquí</Link></p>
             </div>
             </div>
             

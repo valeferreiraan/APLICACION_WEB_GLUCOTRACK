@@ -22,9 +22,9 @@ function IndexApp(){
                     <CardInfo 
                         image={info1}
                         title = 'Agrega tus medidas'
-                        text1= ' ¡Al momento que lo hagas! Registra tus medidas para tener control de tus niveles de azúcar.'
+                        text1= ' ¡Al momento que lo hagas! Registra tus medidas para tener control de tus niveles de azúcar y ver los cambios que has tenido.'
                         popover='Puedes ponerla al momento de medirte, o después y poner la hora.'
-                        color='var(--azulprimario)'
+                        color='var(--azulClaro1)'
                     />
 
                     <CardInfo 
@@ -32,15 +32,15 @@ function IndexApp(){
                         title = 'Lleva control'
                         text1= ' Todas tus medidas quedarán guardadas para que puedas ver cómo se están comportando tus niveles de glucosa.'
                         popover='Gráficas interactivas, por día, semana, o mes. '
-                        backgroundColor='azulprimario'
+                        color='var(--azulprimario)'
                     />
 
                     <CardInfo 
                         image={info3}
                         title = 'Aliméntate bien'
-                        text1= ' Podrás llevar control de las comidas que consumes, así, recordarás tus comidas y podrás relacionarlo con tus niveles de azúcar.'
+                        text1= ' Podrás llevar control de las comidas que consumes, así, podrás relacionarlo con tus niveles de azúcar.'
                         popover='Las comidas pueden influir más de lo que crees en tus niveles de glucosa. '
-                        backgroundColor='azulClaro1'
+                        color='var(--azulClaro1)'
                     />
 
                     <CardInfo 
@@ -48,7 +48,7 @@ function IndexApp(){
                         title = 'Alertas y recordatorios'
                         text1= ' ¿Se te olvida aplicarte la insulina? Activa los recordatorios de insulinas y medicamentos para que no te vuelva a pasar.'
                         popover='Es tú control, tú eres quien decide las horas de los recordatorios. '
-                        backgroundColor='azulprimario'
+                        color='var(--azulprimario)'
                     />
 
                     <CardInfo 
@@ -66,7 +66,7 @@ function IndexApp(){
                 </div>
             </div>
 
-            
+        
             
 
         </div>

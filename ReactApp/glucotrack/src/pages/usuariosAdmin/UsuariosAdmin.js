@@ -15,7 +15,7 @@ const UsuariosAdmin = () => {
             <Subheader 
             image={ImgSubheader}
             title={'Gestión de Usuarios'}
-            subtitle={'Acá puedes gestionar los usarios registrados en Glucotrack'}
+            subtitle={'Gestiona los usarios registrados en Glucotrack'}
             icon={IconGestionUsuarios}/>
             <TablaUsuarios />
         </div>

@@ -78,7 +78,7 @@ const CardMedicamentos = ({defaultMedicines }) => {
               className='inputMedicamento'
                 type="text"
                 value={medicine.name}
-                onChange={(e) => cambioMedicamento(medicineIndex, 'name', e.target.value)}
+                onChange={(e) => cambioMedicamento(medicineIndex, 'nombre', e.target.value)}
                 disabled={isDisabled}
                 />
             </label>

@@ -54,7 +54,7 @@ function IndexApp(){
                     <CardInfo 
                         image={info5}
                         title = 'Atención médica'
-                        text1= 'Todo más fácil, manda directamente a tu médico/a tus niveles de azúcar para agilizar las consultas.'
+                        text1= 'Todo más fácil, envía directamente a tu médico/a tus niveles de azúcar para agilizar las consultas.'
                         popover='En casos de emergencia, cuando el azúcar está muy alta o muy baja, nos podemos poner en contacto con tu médico/a. '
                         backgroundColor='var(--azulClaro1)'
                     />

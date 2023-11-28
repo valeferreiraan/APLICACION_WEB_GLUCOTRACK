@@ -59,6 +59,8 @@ h2 {
   background-color:var(--azulverdoso);
   padding: 20px;
   border-radius: 11px;
+  width: 300px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
 }
 
 .containerSelector{
@@ -80,12 +82,13 @@ h2 {
 .buttonSelector{
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 10px;
 }
 
 .inputSelectorAlimento{
-  width: 50%;
-  height: 30px;
+  width: 30%;
+  height: 20px;
   text-align: center;
   border: none;
   border-radius: 6px;
@@ -114,5 +117,11 @@ h2 {
   color: white;
   margin-left: 5px;
   margin-right: 5px;
-  width: 20px
+  width: 40px;
+  height: 40px;
+  transition: background-color 0.3s ease
+}
+
+.buttonValor:active{
+  background-color: #42C2FF;
 }

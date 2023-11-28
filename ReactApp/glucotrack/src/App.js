@@ -11,6 +11,9 @@ import Alimentacion from './pages/alimentacion/Alimentacion'
 import RegistroAlimentacion from './pages/registroAlimentacion/RegistroAlimentacion';
 import NuevaMedida from './pages/nuevaMedida/NuevaMedida';
 
+import Perfil from './pages/perfil/Perfil';
+
+
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -26,6 +29,8 @@ function App() {
       <Route path="/alimentacion" element={<Alimentacion  />} />
       <Route path='/alimentacion/registro' element={<RegistroAlimentacion  />} />
       <Route path='/nuevaMedida' element={<NuevaMedida/>}/>
+      <Route path='/perfil' element={<Perfil />} />
+    
     </Routes>
     </BrowserRouter>
     </div>

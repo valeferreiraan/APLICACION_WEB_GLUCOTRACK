@@ -58,11 +58,12 @@ function Alimentacion(){
                 title = 'Bebidas'/>
             </div>
         </div>
+        
 
         <div className='containerResumen'>
             <ProgressComponent cal = '2000' sug = '30' carb='100'/>
         </div>
-
+        <script src="./selectorAlimento.js"></script>
     </div>)
 }
 

@@ -39,7 +39,7 @@ function Nav(){
             </div>
             <div className="nav-link">
                 
-                    <Link to="/login">Perfil</Link>
+                    <Link to="/perfil">Perfil</Link>
                 
             </div>
         </nav>

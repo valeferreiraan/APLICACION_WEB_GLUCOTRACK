@@ -5,7 +5,7 @@ import IcconProfile from './img/bxs-user.svg'
 import ImagenSubHeader from './img/16679203_5774968.jpg'
 
 import CardDatosPersonales from '../../components/cardDatosPersonales/cardDatosPersonales';
-import CardMedicamento from '../../components/cardMedicamentos/cardMedicamentos';
+import CardMedicamento from '../../components/cardMedicamentos/cardMedicamentos'
 
 import './Perfil.css'
 

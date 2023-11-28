@@ -59,7 +59,8 @@ function CardAlimento({image, title}){
 
             <div className='containerSelector'>
                 <div className='Selector' style={{ top: cardPosition.top, left: cardPosition.left, display: cardVisible ? 'flex' : 'none', }}>
-                    <p className='titleSelector'>Ingresa el número de porciones</p>
+                    <h3 className='titleSelector'>Ingresa el número de porciones</h3>
+
                     <div className='buttonSelector'>
                         <button onClick={handleDecrease} className='buttonValor'>-</button>
                         <input type="number" value={counter} onChange={handleAmountChange} className='inputSelectorAlimento'/>

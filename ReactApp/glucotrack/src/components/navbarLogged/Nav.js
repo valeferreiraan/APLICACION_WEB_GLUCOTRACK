@@ -14,7 +14,7 @@ function Nav(){
             <div className="nav-link">
                 
                    <Link to="/nuevaMedida">Nueva Medida</Link>
-                
+
             </div>
             <div className="nav-link">
                 
@@ -29,12 +29,12 @@ function Nav(){
 
             <div className="nav-link">
                 
-                    <Link to="/login">Salud</Link>
+                    <Link to="/salud">Salud</Link>
                 
             </div>
             <div className="nav-link">
                 
-                    <Link to="/login">Atención médica</Link>
+                    <Link to="/atencion-medica">Atención médica</Link>
                 
             </div>
             <div className="nav-link">

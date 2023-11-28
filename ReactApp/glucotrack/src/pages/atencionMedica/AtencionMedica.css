@@ -1,50 +1,16 @@
-.formRegistro {margin-top: 100px;
-    margin-left: 20%;
-    margin-right: 20%;
-    padding: 20px;
-    border-radius: 25px;
-    background-color: var(--azulClaro1);
-text-align: center;
-color: #000000;
-box-shadow: 10px 10px 10px rgb(85, 84, 84);
-scale: 1.2;}
 
-.input-Nivel {width: 50px; text-align: center;
-margin-right: 1.5%;}
+.sendData{
+    max-width: 400px;
+    margin: 20px auto;
+  }
 
-.form-select{
-    background-color: var(--azulmuyClaro);
-    font-family: 'Aleo', serif;
-}
+.sendData label, select {
+    display: block;
+    margin-bottom: 10px;
+  }
 
-input {border-radius: 8px;
-border: none;}
 
-input:focus {border: none;
-outline: none;}
-
-.BotonAnimoBien {background-color: #468B97;
-outline: none;
-border: none;
-height: 20px;
-width: 20px;
-border-radius: 50%;box-shadow: 3px 3px 3px;}
-
-.BotonAnimoRegular {background-color: #F3AA60;
-    outline: none;
-    border: none;
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;box-shadow: 3px 3px 3px;}
-
-.BotonAnimoMal {background-color: #EF6262;
-    outline: none;
-    border: none;
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;box-shadow: 3px 3px 3px;}
-
-.botonRegistrar{
+  .sendData button{
     background-color: var(--azulverdoso);
     color: var(--azulmuyClaro);
     font-size: 16px;
@@ -58,20 +24,15 @@ border-radius: 50%;box-shadow: 3px 3px 3px;}
     margin-right: 10px;
     text-decoration: none;
 font-family: 'Aleo', serif;
-}
 
-.botonRegistrar:hover{
+  }
+
+  .sendData button:hover{
     background-color: var(--azulClaro2);
     color: var(--moradoOscuro);
-}
-
-select {font-size: medium;
-border-radius: 8px;}
-
-select:focus{outline: none;}
-
-
-/* Estilos del Modal */
+  }
+  
+  /* Estilos del Modal */
 .modal {
     position: fixed;
     top: 0;
@@ -84,7 +45,7 @@ select:focus{outline: none;}
     align-items: center;
   }
   
-  .modal-contenido {
+  .modal-content {
     width: 300px;
     height: 200px;
     display: grid;
@@ -96,7 +57,7 @@ select:focus{outline: none;}
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   }
 
-  .modal-contenido button{
+  .modal-content button{
     background-color: var(--azulverdoso);
     color: var(--azulmuyClaro);
     font-size: 16px;
@@ -113,12 +74,34 @@ font-family: 'Aleo', serif;
 
   }
 
-  .modal-contenido button:hover{
+  .modal-content button:hover{
     background-color: var(--azulClaro2);
     color: var(--moradoOscuro);
   }
+  /*
 
-  .modal-contenido img{
-    padding-left: 25%;
-    padding-right: 50%;
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    justify-content: center;
+    align-items: center;
   }
+
+  .modal-content {
+    background-color: #fefefe;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }*/

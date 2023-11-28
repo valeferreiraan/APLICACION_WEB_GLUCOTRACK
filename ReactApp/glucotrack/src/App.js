@@ -13,6 +13,7 @@ import NuevaMedida from './pages/nuevaMedida/NuevaMedida';
 import AtencionMedica from './pages/atencionMedica/AtencionMedica';
 
 import Perfil from './pages/perfil/Perfil';
+import UsuariosAdmin from './pages/usuariosAdmin/UsuariosAdmin';
 
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -34,6 +35,7 @@ function App() {
       <Route path='/perfil' element={<Perfil />} />
       <Route path='/atencion-medica' element= {<AtencionMedica/>}/>
       <Route path='/salud' element={<Salud/>}/>
+      <Route path='/usuarios' element={<UsuariosAdmin />}/>
 
     </Routes>
     </BrowserRouter>

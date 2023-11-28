@@ -1,0 +1,66 @@
+.containerTablaUsuarios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    margin-top: -32px;
+}
+
+
+.containerAgregarUsuario{
+    background-color: var(--azulverdoso);
+    border-radius: 11px;
+    padding: 1em 5em 1em;
+    margin-bottom: 5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    
+}
+
+.containerAgregarUsuario h2{
+    color:white;
+}
+
+.divAgregarUsuario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.formAgregarUsuario{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+
+.divAgregarUsuario button{
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+
+.tableEditarUsuarios{
+    transition: 0.5s;
+}
+
+.tableEditarUsuarios td{
+    width: 200px;
+    text-align: center;
+}
+
+.tableEditarUsuarios input{
+    text-align: center;
+    background-color: rgb(208, 201, 201);
+}
+
+.botonesEditar button{
+    margin-left: 10px;
+}

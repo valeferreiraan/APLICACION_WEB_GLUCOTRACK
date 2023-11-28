@@ -33,19 +33,19 @@ const ProgressComponent = ({cal,sug,carb}) => {
           <Grid item xs={4}>
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
               <CircularProgressBar value={cal_total} /> 
-              <h2>{cal} kcal</h2>
+              <h2 className='unidades'>{cal} kcal</h2>
             </div>
           </Grid>
           <Grid item xs={4}>
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
               <CircularProgressBar value={sug_total} /> 
-              <h2>{sug}g azúcar</h2>
+              <h2 className='unidades'>{sug}g azúcar</h2>
             </div>
           </Grid>
           <Grid item xs={4}>
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
               <CircularProgressBar value={carb_total} /> 
-              <h2>{carb}g carb.</h2>
+              <h2 className='unidades'>{carb}g carb.</h2>
             </div>
           </Grid>
         </Grid>

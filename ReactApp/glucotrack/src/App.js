@@ -12,6 +12,9 @@ import RegistroAlimentacion from './pages/registroAlimentacion/RegistroAlimentac
 import NuevaMedida from './pages/nuevaMedida/NuevaMedida';
 import AtencionMedica from './pages/atencionMedica/AtencionMedica';
 
+import Perfil from './pages/perfil/Perfil';
+
+
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Salud from './pages/salud/Salud';
 
@@ -28,9 +31,9 @@ function App() {
       <Route path="/alimentacion" element={<Alimentacion  />} />
       <Route path='/alimentacion/registro' element={<RegistroAlimentacion  />} />
       <Route path='/nuevaMedida' element={<NuevaMedida/>}/>
+      <Route path='/perfil' element={<Perfil />} />
       <Route path='/atencion-medica' element= {<AtencionMedica/>}/>
       <Route path='/salud' element={<Salud/>}/>
-
 
     </Routes>
     </BrowserRouter>

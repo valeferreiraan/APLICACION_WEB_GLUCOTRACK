@@ -1,0 +1,112 @@
+:root{
+    --azulprimario: #2F58CD;
+    --azulverdoso: #3795BD;
+    --moradoOscuro: #3A1078;
+    --morado: #4E31AA;
+    --azulClaro1: #42C2FF;
+    --azulClaro2: #85F4FF;
+    --azulclaro3: #B8FFF9;
+    --azulmuyClaro: #EFFFFD;
+    --nivelNormal: #468B97;
+    --nivelAlto: #EF6262;
+    --nivelBajo: #F3AA60;
+
+    --grisShadows: #707070;
+}
+
+
+.box-datos-personales {
+    max-width: 500px;
+    margin: 20px; 
+    background-color: var(--azulverdoso);
+    padding: 2%;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+  
+  .headerBoxDatos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .headerBoxDatos h2 {
+    margin: 0;
+    color: white;
+  }
+  
+  .containerInputs{
+    margin-bottom: 10px;
+  }
+
+
+  input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    padding: 5px;
+    border-radius: 7px;
+    border: none;
+  }
+
+  label{
+    color: white;
+    margin-left: 10px;
+  }
+
+.input-row{
+    display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: .5em;
+}
+
+.input-row > label {
+    flex: 1;
+  }
+
+.input-row > input {
+    flex: 2;
+    padding: .8em;
+    transition: 0.5s;
+    font-family: 'Aleo', serif;
+}
+
+
+button {
+    padding: 2%;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--azulprimario);
+    color: white;
+    width: 80px;
+    font-family:'Aleo', serif;
+}
+
+
+.locked {
+    background-color: var(--azulprimario); /* Change the color for locked state */
+  }
+  
+  .unlocked {
+    background-color:var(--morado)/* Change the color for unlocked state */
+  }
+
+
+@media screen and (min-width: 768px) {
+    .input-row > input {
+     flex: 3;  
+}
+}
+@media screen and (min-width: 992px) {
+    .input-row > input {
+     flex: 4;  
+}
+}
+@media screen and (min-width: 1200px) {
+    .input-row > input {
+     flex: 5;  
+}
+}

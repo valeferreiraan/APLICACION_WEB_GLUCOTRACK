@@ -10,6 +10,8 @@ import Home from './pages/home/home';
 import Alimentacion from './pages/alimentacion/Alimentacion'
 import RegistroAlimentacion from './pages/registroAlimentacion/RegistroAlimentacion';
 
+import Perfil from './pages/perfil/Perfil';
+
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
@@ -25,6 +27,7 @@ function App() {
       <Route path="/home" element={<Home/>}/>
       <Route path="/alimentacion" element={<Alimentacion  />} />
       <Route path='/alimentacion/registro' element={<RegistroAlimentacion  />} />
+      <Route path='/perfil' element={<Perfil />} />
     
     </Routes>
     </BrowserRouter>

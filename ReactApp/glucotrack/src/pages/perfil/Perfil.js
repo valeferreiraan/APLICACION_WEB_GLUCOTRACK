@@ -13,10 +13,10 @@ function Perfil(){
     const inputLabelsPersonales = ['Nombre', 'Email', 'Edad', 'Pais'];
     const defaultValuesPersonales = ['Pepito Pérez', 'pepito.perez@gmail.com', '34', 'Colombia'];
 
-    const inputLabelsMedico = ['Nombre', 'Celular', 'Email']
-    const defaultValuesMedico = ['Carlos Rodríguez','315622412', 'carlos.rodriguez@gmail.com']
+    const inputLabelsMedico = ['Nombre', 'Email',  'Celular']
+    const defaultValuesMedico = ['Carlos Rodríguez', 'carlos.rodriguez@gmail.com', '315622412']
 
-    const defaultMedicines = [
+    const defaultMedicamentos = [
         {
           name: 'Insulina',
           times: ['08:00', '12:30', '18:00'],
@@ -47,7 +47,7 @@ function Perfil(){
                 title={'Contacto de salud'}
                 defaultValues={defaultValuesMedico }/>
 
-                <CardMedicamento  defaultMedicines={defaultMedicines}/>
+                <CardMedicamento  defaultMedicines={defaultMedicamentos}/>
             </div>
         </div>
     )

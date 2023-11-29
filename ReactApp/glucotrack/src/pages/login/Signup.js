@@ -2,11 +2,19 @@ import './Login.css';
 import NameandLogo from '../../components/headerLogSign/NameandLogo';
 import SignupForm from '../../components/signupForm/SignupForm';
 import MedForm from '../../components/signupForm/medForm';
+import { useSnackbar } from 'notistack';
 
 
 import {Link} from "react-router-dom";
 
 function SignUp(){
+    const {enqueueSnackbar} = useSnackbar()
+
+    const handleClick = () => {
+        enqueueSnackbar("Cuenta creada correctamente", {
+            variant:"success"
+        })
+    }
     return(
         <div className='container container-signup'>
             <div className='left'>
@@ -40,9 +48,9 @@ function SignUp(){
                     </span> </label>
                 </div>
                 
-                    <a href="./home.html">
+                    <Link to='/home' onClick={handleClick}>
                         Crear una cuenta
-                    </a>
+                    </Link>
                 
             </div>
             <div class="noAcc">

@@ -2,10 +2,20 @@ import './Login.css';
 
 import NameandLogo from '../../components/headerLogSign/NameandLogo';
 import LoginForm from '../../components/loginForm/LoginForm';
+import { useSnackbar } from 'notistack';
 
 import {Link} from "react-router-dom";
 
 function Login(){
+    const {enqueueSnackbar} = useSnackbar()
+
+    const handleClick = () => {
+        enqueueSnackbar("Inicio de sesión exitoso", {
+            variant:"success"
+        })
+    }
+
+  
     return(
         <div className="container">
             <div className="left">
@@ -31,7 +41,7 @@ function Login(){
                     <label for="remindMe"> Recordarme</label>
                 </div>
                 
-                    <Link to="/home">
+                    <Link to="/home" onClick={handleClick}>
                         Iniciar Sesión
                     </Link>
                 

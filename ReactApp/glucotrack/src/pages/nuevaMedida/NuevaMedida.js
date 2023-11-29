@@ -3,6 +3,7 @@ import Header from '../../components/headerLogged/Header';
 import Nav from '../../components/navbarLogged/Nav';
 import './NuevaMedida.css';
 import DropletIcon from './img/droplet-solid-84.png';
+import fotoHeader from './img/diabetes.jpg';
 import checkMark from './img/approved.gif';
 import {useState} from 'react';
 
@@ -23,7 +24,7 @@ function NuevaMedida(){
             <Header/>
             <Nav/>
             <Subheader
-            image = 'https://www.elfinanciero.com.mx/resizer/1_D3KiQLeaeJyqv7bmI5yJqMdK4=/1200x630/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/3T56UJDU6JDU3FSPWHXS7BLJMY.jpeg'
+            image = {fotoHeader}
             title = 'Nueva medida'
             subtitle= 'Registra tu nivel de glucosa, recuerda tener en cuenta las unidades de tu medida'
             icon = {DropletIcon}

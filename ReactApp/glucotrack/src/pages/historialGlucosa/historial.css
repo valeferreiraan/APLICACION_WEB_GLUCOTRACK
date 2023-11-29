@@ -54,3 +54,17 @@
     box-shadow: 10px 10px 10px 10px rgb(142, 140, 140);
     scale: 1.2;
 }
+
+@media (max-width: 768px) {
+    .historial{
+        flex-direction: column;
+        
+    }
+
+    .changeGrafico{
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+}

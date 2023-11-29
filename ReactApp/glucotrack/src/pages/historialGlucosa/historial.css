@@ -1,0 +1,41 @@
+.historial{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+.grafica{
+    width: 700px !important;
+}
+
+.changeGrafico{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.changeGrafico button{
+    width: 100px !important;
+    height: 50px;
+    border-radius: 25px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.changeGrafico button:hover{
+    background-color: var(--azulClaro2) !important;
+    color: var(--morado);
+}
+
+.resumen{
+    background-color: var(--azulClaro2);
+    padding: 1.5%;
+    border-radius: 25px;
+    width: 400px;
+    text-align: center;
+    color: var(--morado);
+    box-shadow: 10px 10px 10px rgb(85, 84, 84);
+    scale: 1.2;
+}

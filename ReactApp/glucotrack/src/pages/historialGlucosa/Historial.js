@@ -17,6 +17,7 @@ function Historial(){
 
     const handleButtonClick = (chartType) => {
       setSelectedChart(chartType);
+      
     };
 
    
@@ -53,6 +54,18 @@ function Historial(){
                 <div className='resumen'>
                     <h3>Resumen</h3>
                     
+                    <ul>
+                        <li>Valores entre 90 y 150 son buenos</li>
+                        <li>Valores mayores a 150 son altos</li>
+                        <li>Valores inferiores a 90 son bajos</li>
+                    </ul>
+
+                    <p>
+                        Esta semana has tenido 1 día con niveles por encima del recomendado
+                    </p>
+                    <p>
+                        De tus últimas mediciones, 3 han estado por fuera de los valores recomendados
+                    </p>
 
                 </div>
                 </div> 

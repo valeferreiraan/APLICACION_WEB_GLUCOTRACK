@@ -11,6 +11,7 @@ const TablaUsuarios= () => {
   const [editingUserId, setEditingUserId] = useState(null);
   const [editedUsers, setEditedUsers] = useState({});
   const [newUser, setNewUser] = useState({ name: '', age: '' });
+  const [modalVisible, setModalVisible] = useState(false);
 
   const handleEdit = (id) => {
     setEditingUserId(id);
@@ -42,6 +43,11 @@ const TablaUsuarios= () => {
   const handleAdd = () => {
     setUsers([...users, { id: users.length + 1, ...newUser }]);
     setNewUser({ name: '', age: '' , email: ''});
+    setModalVisible(true);
+  };
+
+  const cerrarModal = () => {
+    setModalVisible(false);
   };
 
   return (
@@ -133,7 +139,18 @@ const TablaUsuarios= () => {
           />
           </div>
           
-          <button onClick={handleAdd}>Añadir</button>
+          <button className='buttonAgregarUsuario' onClick={handleAdd}>Añadir</button>
+          {modalVisible && (
+            <div className="modal">
+              <div className="modal-content">
+                
+                
+                <h4>Usuario añadido</h4>
+                
+                <button onClick={cerrarModal}>Cerrar</button>
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </div>

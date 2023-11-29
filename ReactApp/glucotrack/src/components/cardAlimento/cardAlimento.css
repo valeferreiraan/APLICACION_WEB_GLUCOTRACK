@@ -125,3 +125,7 @@ h2 {
 .buttonValor:active{
   background-color: #42C2FF;
 }
+
+.modalAlimentacion{
+  z-index: 1;
+}

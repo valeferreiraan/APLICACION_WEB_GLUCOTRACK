@@ -3,7 +3,7 @@ import Nav from '../../components/navbarLogged/Nav'
 import Subheader from '../../components/subheader/subheader';
 import IcconProfile from './img/bxs-user.svg'
 import ImagenSubHeader from './img/16679203_5774968.jpg'
-
+import Footer from '../../components/footer/Footer';
 import CardDatosPersonales from '../../components/cardDatosPersonales/cardDatosPersonales';
 import CardMedicamento from '../../components/cardMedicamentos/cardMedicamentos'
 
@@ -58,7 +58,7 @@ function Perfil(){
                 </Link>
                 </a>
             </div>
-            
+            <Footer />
         </div>
     )
 

@@ -10,9 +10,8 @@ const ForgotPass = ({ open, onClose }) => {
   };
 
   const handleSendButtonClick = () => {
-    
     console.log('Enviar correo a:', email);
-    onClose(); 
+    onClose();
   };
 
   return (

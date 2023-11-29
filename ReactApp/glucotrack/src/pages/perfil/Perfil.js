@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom';
 
 function Perfil(){
     const inputLabelsPersonales = ['Nombre', 'Email', 'Edad', 'Pais'];
-    const defaultValuesPersonales = ['Pepito Pérez', 'pepito.perez@gmail.com', '34', 'Colombia'];
+    const defaultValuesPersonales = ['Arturo Ferreira', 'arturo.ferreira@gmail.com', '34', 'Colombia'];
 
     const inputLabelsMedico = ['Nombre', 'Email',  'Celular']
     const defaultValuesMedico = ['Carlos Rodríguez', 'carlos.rodriguez@gmail.com', '315622412']

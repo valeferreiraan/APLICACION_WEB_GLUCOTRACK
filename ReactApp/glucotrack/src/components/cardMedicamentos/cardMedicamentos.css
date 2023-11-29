@@ -13,12 +13,21 @@
     width: 100px;;
 }
 
-input{
+.inputMedicamento{
     font-family: 'Aleo', sans-serif;
     transition: 0.5s;
     padding: .8em;
     font-weight: 500;
     margin-top: 10px;
+    height: 40px;
+}
+
+.inputHora{
+    font-family: 'Aleo', sans-serif;
+    transition: 0.5s;
+    padding: .8em;
+    font-weight: 500;
+    margin-top: 20px;
 }
 
 input:disabled{

@@ -26,7 +26,7 @@ header {
     display: flex;
     gap: 10px;
     margin-right: 10px; 
-    margin-left: auto;/* Margen a la derecha para separar los botones del borde derecho del encabezado */
+    margin-left: auto;
 }
 
 .logButtons a {

@@ -7,8 +7,8 @@ body{
 }
 
 .content{
-    margin: 20px 20px 20px 20px;
-    height: 70vb;
+    margin: 20px 20px 100px 20px;
+    min-height: 45vh;
 }
 
 .content h1{
@@ -24,12 +24,18 @@ body{
     margin: 20px 20px 20px 20px;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .caja2{
     background-color: var(--azulprimario);
     
 
+}
+
+button{
+    border: none;
+    font-family: 'Aleo', sans-serif;
 }
 
 @media (max-width: 768px) {

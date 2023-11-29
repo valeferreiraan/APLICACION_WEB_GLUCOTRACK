@@ -7,7 +7,6 @@ const BurgerMenu = () => {
 
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
-    
   };
 
   return (

@@ -27,8 +27,7 @@ const CardDatosPersonales = ({title, numberOfInputs, inputLabels, defaultValues 
             <h2>{title}</h2>
             <button
           onClick={toggleInputBlocking}
-          className={isButtonClicked ? (isInputsBlocked ? 'locked' : 'unlocked') : ''}
-        >
+          className={isButtonClicked ? (isInputsBlocked ? 'locked' : 'unlocked') : 'buttonEditar'}>
           {isInputsBlocked ? 'Editar' : 'Guardar'}
         </button>
         </div>

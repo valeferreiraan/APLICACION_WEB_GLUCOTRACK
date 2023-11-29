@@ -121,18 +121,21 @@ const TablaUsuarios= () => {
           <div className='formAgregarUsuario'>
           <label>Nombre:</label>
           <input
+          className='inputEspecial'
             type="text"
             value={newUser.name}
             onChange={(e) => setNewUser({ ...newUser, name: e.target.value })}
           />
           <label>Email:</label>
           <input
+          className='inputEspecial'
             type="text"
             value={newUser.email}
             onChange={(e) => setNewUser({ ...newUser, email: e.target.value })}
           />
           <label>Edad:</label>
           <input
+          className='inputEspecial'
             type="number"
             value={newUser.age}
             onChange={(e) => setNewUser({ ...newUser, age: e.target.value })}

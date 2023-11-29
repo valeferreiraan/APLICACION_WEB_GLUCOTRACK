@@ -1,6 +1,8 @@
 import Subheader from '../../components/subheader/subheader';
 import Header from '../../components/headerLogged/Header';
 import Nav from '../../components/navbarLogged/Nav';
+import Footer from '../../components/footer/Footer';
+
 import './NuevaMedida.css';
 import DropletIcon from './img/droplet-solid-84.png';
 import fotoHeader from './img/diabetes.jpg';
@@ -77,9 +79,9 @@ function NuevaMedida(){
         </div>
       )}
     
-
-        </div>
-
+    <Footer />
+    </div>
+    
 
     )
 }

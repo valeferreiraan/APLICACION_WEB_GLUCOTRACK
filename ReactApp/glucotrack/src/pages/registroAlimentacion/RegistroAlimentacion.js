@@ -2,7 +2,7 @@ import './RegistroAlimentacion.css'
 import Header from '../../components/headerLogged/Header';
 import Nav from '../../components/navbarLogged/Nav'
 import Subheader from '../../components/subheader/subheader';
-
+import Footer from '../../components/footer/Footer';
 import IconBook from './img/food-menu-solid-84.png'
 import Arrow from './img/bx-chevron-left.svg'
 import DayScroller from '../../components/dayScroller/DayScroller';
@@ -43,6 +43,7 @@ function RegistroAlimentacion(){
             <div className='containerTabla'>
             <TablaAlimentos initialData={datosAlimentacion}/>
             </div>
+            <Footer />
         </div>
     )
 

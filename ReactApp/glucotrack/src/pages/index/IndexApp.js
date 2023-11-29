@@ -65,10 +65,7 @@ function IndexApp(){
 
                 </div>
             </div>
-
-        
-            
-
+            <Footer />
         </div>
     )
 }

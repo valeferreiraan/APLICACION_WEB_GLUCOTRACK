@@ -3,6 +3,8 @@ import Subheader from '../../components/subheader/subheader';
 import Header from '../../components/headerLogged/Header';
 import Nav from '../../components/navbarLogged/Nav';
 import CardInfo from '../../components/cardInfo/cardInfo';
+import Footer from '../../components/footer/Footer';
+
 import info1 from './img/1.png';
 import info2 from './img/2.png';
 import info3 from './img/3.png';
@@ -66,7 +68,7 @@ function Home(){
                 </div>
             
             </div>
-
+            <Footer />
         </div>
     )
 }

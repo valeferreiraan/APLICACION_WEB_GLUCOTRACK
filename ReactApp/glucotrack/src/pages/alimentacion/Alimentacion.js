@@ -4,9 +4,9 @@ import Nav from '../../components/navbarLogged/Nav'
 import CardAlimento from '../../components/cardAlimento/cardAlimento'
 import Imgcarne from './img/carne.jpg'
 import Subheader from '../../components/subheader/subheader';
+import Footer from '../../components/footer/Footer';
 
 import IconBook from './img/food-menu-solid-84.png'
-
 import ProgressComponent from '../../components/progressComponent/ProgressComponent;';
 
 function Alimentacion(){
@@ -63,8 +63,10 @@ function Alimentacion(){
         <div className='containerResumen'>
             <ProgressComponent cal = '2000' sug = '30' carb='100'/>
         </div>
+        <Footer />
         <script src="./selectorAlimento.js"></script>
-    </div>)
+    </div>
+    )
 }
 
 export default Alimentacion;

@@ -4,6 +4,7 @@ import GraficaSemana from '../../components/grafica/grafica';
 import GraficaDia from '../../components/grafica/graficaDia';
 import GraficaMes from '../../components/grafica/graficaMes';
 import Header from '../../components/headerLogged/Header';
+import Footer from '../../components/footer/Footer';
 import Nav from '../../components/navbarLogged/Nav';
 import Subheader from '../../components/subheader/subheader';
 import './historial.css'
@@ -60,7 +61,7 @@ function Historial(){
                 </div>
             
             </div>
-
+        <Footer />
         </div>
     )
 }

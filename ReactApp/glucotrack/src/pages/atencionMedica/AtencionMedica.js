@@ -1,11 +1,13 @@
 import Header from '../../components/headerLogged/Header';
 import Nav from '../../components/navbarLogged/Nav';
 import Subheader from '../../components/subheader/subheader';
+import Footer from '../../components/footer/Footer';
 import './AtencionMedica.css'
 import MedIcon from './plus-medical-regular-84.png';
 import foto from './foto.jpg';
 
 import React, { useState } from 'react';
+
 
 
 
@@ -82,8 +84,9 @@ function AtencionMedica(){
       )}
 
             </div>
-
+            <Footer />
         </div>
+        
     )
 }
 

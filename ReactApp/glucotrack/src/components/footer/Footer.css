@@ -1,5 +1,4 @@
 
-/*Para el footer dejar abajo para mas organizaciooon*/
 
 .footer{
     background-color: var(--azulprimario);
@@ -7,34 +6,21 @@
     padding:20px;
     display: flex;
     justify-content: space-between;
-    /*position: fixed; /* Fija el footer en la parte inferior de la ventana del navegador
-    left: 0;
-    right: 0;
-    bottom: 0;*/
-    margin-top: auto;
-    width: 100%;
-
+    flex-wrap: wrap;
 }
 
 .aligned-footer {
-    /* Añade los estilos específicos para este footer aquí */
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    
-    right: 0;
-    bottom: 0;
     height: auto;
     margin-right:50px;
     margin-top: 30px;
 } 
 
-.footer p{
-    font-size: 14px;
-}
 
 .footer-left {
-    flex:1;
+    flex:3;
     text-align: left;
 
 }
@@ -47,7 +33,7 @@
 }
 
 .footer-right{
-    padding-bottom: 20px;
+
     text-align: right;
 }
 

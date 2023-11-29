@@ -1,0 +1,35 @@
+
+.containerTips{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.cardTip{
+    background-color: var(--azulClaro1);
+    margin: 1em 1rem;
+    padding: 2%;
+    border-radius: 11px;
+    min-width: 20%;
+    max-width: 300px;
+    height: 200px;
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.cardTip p{
+    margin-top: 2%;
+}
+
+
+@media (max-width: 768px) {
+    .cardTip{
+        background-color: var(--azulClaro1);
+        margin: 1em 1rem;
+        padding: 2%;
+        border-radius: 11px;
+        min-width: 20%;
+        max-width: 600px;
+    }
+  }

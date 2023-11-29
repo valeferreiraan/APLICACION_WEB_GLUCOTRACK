@@ -35,7 +35,7 @@ var miData = {
     datasets:[
         {
 
-            label: 'niveles de glucosa',
+            label: 'Niveles de glucosa',
             data: glucosa,
             tension: 0.4,
             fill: false,

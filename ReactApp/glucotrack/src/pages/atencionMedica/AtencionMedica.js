@@ -3,6 +3,7 @@ import Nav from '../../components/navbarLogged/Nav';
 import Subheader from '../../components/subheader/subheader';
 import './AtencionMedica.css'
 import MedIcon from './plus-medical-regular-84.png';
+import foto from './foto.jpg';
 
 import React, { useState } from 'react';
 
@@ -44,7 +45,7 @@ function AtencionMedica(){
             <Header/>
             <Nav/>
             <Subheader
-            image = ''
+            image = {foto}
             title = "Atención Médica"
             subtitle = 'Envía tus datos a tu médico'
             icon = {MedIcon}/>

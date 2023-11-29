@@ -82,8 +82,8 @@ button {
     cursor: pointer;
     background-color: var(--azulprimario);
     color: white;
-    width: 80px;
-    height: 40px;
+    /*width: 80px;
+    height: 40px;*/
     font-family:'Aleo', serif;
 }
 

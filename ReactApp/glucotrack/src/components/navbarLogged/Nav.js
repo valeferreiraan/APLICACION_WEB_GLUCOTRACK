@@ -18,7 +18,7 @@ function Nav(){
             </div>
             <div className="nav-link">
                 
-                   <Link to="/login">Historial Glucosa</Link>
+                   <Link to="/historial-glucosa">Historial Glucosa</Link>
                 
             </div>
             <div className="nav-link">

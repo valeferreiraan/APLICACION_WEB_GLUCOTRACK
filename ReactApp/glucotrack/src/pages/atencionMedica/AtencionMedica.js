@@ -47,15 +47,16 @@ function AtencionMedica(){
             subtitle = 'Envía tus datos a tu médico'
             icon = {MedIcon}/>
             <div className='content'>
+                <div className='cajitaAtencion'>
             <form className='sendData'>
-        <label htmlFor="exportType">Selecciona el intervalo de tiempo:</label>
+        <label htmlFor="exportType">Selecciona el intervalo de tiempo:     </label>
         <select id="exportType" name="exportType" value={exportType} onChange={handleExportTypeChange}>
           <option value="day">Día</option>
           <option value="week">Semana</option>
           <option value="month">Mes</option>
         </select>
 
-        <label htmlFor="email">Selecciona el correo de destino:</label>
+        <label htmlFor="email">Selecciona el correo de destino:     </label>
         <select id="email" name="email" value={email} onChange={handleEmailChange}>
           <option value="correo1@example.com">Correo 1</option>
           <option value="correo2@example.com">Correo 2</option>
@@ -64,6 +65,7 @@ function AtencionMedica(){
 
         <button type="button" onClick={enviarFormulario}>Enviar</button>
       </form>
+      </div>
       {modalVisible && (
         <div className="modal">
           <div className="modal-content">

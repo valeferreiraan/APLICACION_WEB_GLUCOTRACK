@@ -18,6 +18,7 @@ import UsuariosAdmin from './pages/usuariosAdmin/UsuariosAdmin';
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Salud from './pages/salud/Salud';
+import Historial from './pages/historialGlucosa/Historial';
 
 function App() {
   return (
@@ -35,7 +36,11 @@ function App() {
       <Route path='/perfil' element={<Perfil />} />
       <Route path='/atencion-medica' element= {<AtencionMedica/>}/>
       <Route path='/salud' element={<Salud/>}/>
-      <Route path='/usuarios' element={<UsuariosAdmin />}/>
+      <Route path='/historial-glucosa' element={<Historial/>}/>
+      <Route path='/nuevaMedida/historial-glucosa' element={<Historial/>}/>
+      <Route path='/usuarios' element={<UsuariosAdmin/>}/>
+          
+
 
     </Routes>
     </BrowserRouter>

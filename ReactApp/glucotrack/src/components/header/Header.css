@@ -81,18 +81,14 @@ header {
     header {
         
         
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         height: auto;
         padding-bottom: 200px;
         
     }
 
-    .logo img {
-        width: 70px;
-        padding-left: 10px;
     
-    }
     .title h1 {
     
         padding: 10px;

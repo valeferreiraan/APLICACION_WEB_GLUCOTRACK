@@ -1,11 +1,19 @@
 import './Nav.css';
-import Login from '../../pages/login/Login';
+
 import {Link} from "react-router-dom";
+import BurgerMenu from '../BurgerMenu/BurgerMenu';
+import { useState } from 'react';
 
 
 function Nav(){
+        const [isMenuOpen, setMenuOpen] = useState(false);
+
+        const toggleMenu = () => {
+        setMenuOpen(!isMenuOpen);
+        };
     return(
-        <nav className = "navbar">
+        <nav className = {`navbar ${isMenuOpen ? 'open' : ''}`}>
+                <BurgerMenu toggleMenu={toggleMenu}/>
             <div className="nav-link">
                 
                     <Link to="/">Inicio</Link>

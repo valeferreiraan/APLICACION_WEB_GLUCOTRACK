@@ -31,3 +31,9 @@ body{
     
 
 }
+
+@media (max-width: 768px) {
+    .services{
+        flex-direction: column;
+    }
+}

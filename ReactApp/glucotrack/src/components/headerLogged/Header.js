@@ -1,9 +1,18 @@
 import Logo from './logo.png';
 import './Header.css';
-import Login from '../../pages/login/Login';
+
 import {Link} from "react-router-dom";
+import { useSnackbar } from 'notistack';
+
 
 function Header(){
+    const {enqueueSnackbar} = useSnackbar()
+
+    const handleClick = () => {
+        enqueueSnackbar("Sesión cerrada", {
+            variant:"success"
+        })
+    }
     return(
         <header>
             <div className="logo">
@@ -15,7 +24,7 @@ function Header(){
         <div className="logButtons">
             
                 
-                    <Link to="/">Cerrar sesión</Link>
+                    <Link to="/" onClick={handleClick}>Cerrar sesión</Link>
                     
                 
             

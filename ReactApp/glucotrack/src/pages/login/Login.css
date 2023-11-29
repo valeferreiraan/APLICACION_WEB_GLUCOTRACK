@@ -2,10 +2,12 @@
     display: flex;
     width: 100%;
     height: 250vh;
+    color: black !important;
 }
 
 .container-signup{
     height: 250vh;
+    color: black !important;
 
 }
 
@@ -29,14 +31,24 @@
     justify-content: center;
     align-items: center;
     margin: 5% 10% 5% 10%;
+
    
     
 
 }
 
+.form label{
+    color: black !important;
+}
+
 .signupForm{
     padding-bottom: 3% !important;
-    border-bottom: 2px solid var(--azulverdoso)
+    border-bottom: 2px solid var(--azulverdoso);
+    color: black !important;
+}
+
+.signupForm label{
+    color: black !important;
 }
 
 .expl{
@@ -69,6 +81,7 @@
 }
 .bottomLogin label{
     font-size: 16px;
+    color: black !important;
     
 }
 
@@ -123,6 +136,7 @@
 }
 .bottomSignup label{
     font-size: 16px;
+    color: black !important;
     
 }
 

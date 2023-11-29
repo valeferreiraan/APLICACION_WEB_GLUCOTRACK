@@ -56,3 +56,20 @@
     color: var(--morado) !important;
 }
 
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-link {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #fff; /* Otra opción para separar los enlaces */
+    }
+
+    .nav-link:last-child {
+        border-bottom: none; /* Elimina la línea inferior del último enlace */
+    }
+}

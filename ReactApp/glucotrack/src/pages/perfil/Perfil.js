@@ -8,6 +8,7 @@ import CardDatosPersonales from '../../components/cardDatosPersonales/cardDatosP
 import CardMedicamento from '../../components/cardMedicamentos/cardMedicamentos'
 
 import './Perfil.css'
+import { Link } from 'react-router-dom';
 
 function Perfil(){
     const inputLabelsPersonales = ['Nombre', 'Email', 'Edad', 'Pais'];
@@ -35,20 +36,29 @@ function Perfil(){
                 title='Perfil'
                 subtitle='Administra tus datos personales'
                 icon={IcconProfile}    />
+            <div className='containerGridDatos'>
+              <div className='gridDatos'>    
+                  <CardDatosPersonales numberOfInputs={inputLabelsPersonales.length} 
+                  inputLabels={inputLabelsPersonales} 
+                  title={'Datos Personales'}
+                  defaultValues={defaultValuesPersonales}/>
 
-            <div className='gridDatos'>    
-                <CardDatosPersonales numberOfInputs={inputLabelsPersonales.length} 
-                inputLabels={inputLabelsPersonales} 
-                title={'Datos Personales'}
-                defaultValues={defaultValuesPersonales}/>
+                  <CardDatosPersonales numberOfInputs={inputLabelsPersonales.length} 
+                  inputLabels={inputLabelsMedico} 
+                  title={'Contacto de salud'}
+                  defaultValues={defaultValuesMedico }/>
 
-                <CardDatosPersonales numberOfInputs={inputLabelsPersonales.length} 
-                inputLabels={inputLabelsMedico} 
-                title={'Contacto de salud'}
-                defaultValues={defaultValuesMedico }/>
-
-                <CardMedicamento  defaultMedicines={defaultMedicamentos}/>
+                  <CardMedicamento  defaultMedicines={defaultMedicamentos}/>
+              </div>
+                <a>
+                <Link to={'../usuarios'}>
+                  <div className='divBotonGestion'>
+                      <button className='buttonGestionusuarios'>Gestión Usuarios</button>
+                  </div>
+                </Link>
+                </a>
             </div>
+            
         </div>
     )
 

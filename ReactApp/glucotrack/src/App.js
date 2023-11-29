@@ -19,11 +19,13 @@ import UsuariosAdmin from './pages/usuariosAdmin/UsuariosAdmin';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Salud from './pages/salud/Salud';
 import Historial from './pages/historialGlucosa/Historial';
+import {SnackbarProvider} from 'notistack';
 
 function App() {
   return (
     <div className="container-fluid overflow-hidden">
     <BrowserRouter>
+    <SnackbarProvider maxSnack={2} autoHideDuration={2000}>    
     <Routes>
    
       <Route path="/" element={<IndexApp  />} />
@@ -43,6 +45,8 @@ function App() {
 
 
     </Routes>
+    </SnackbarProvider>
+
     </BrowserRouter>
     </div>
   );

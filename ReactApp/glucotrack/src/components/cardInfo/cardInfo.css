@@ -6,7 +6,6 @@
     margin: 20px auto;
     text-align: center;
     box-shadow: 0 0 5px #707070;
-    /*overflow: hidden;*/
     border-radius: 20px;
 }
 
@@ -29,7 +28,7 @@
 
 .info p{
     margin: 0;
-    flex-grow: 1; /* Hace que el párrafo ocupe todo el espacio vertical restante */
+    flex-grow: 1;
     display: flex;
     align-items: center;
 }
@@ -55,7 +54,6 @@
 }
 
 .popover-wrapper a{
-     /* Hace que el párrafo ocupe todo el espacio vertical restante */
     
     color: white;
     margin: 0;

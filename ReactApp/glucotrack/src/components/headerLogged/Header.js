@@ -22,12 +22,9 @@ function Header(){
             <h1>GlucoTrack</h1>
         </div>
         <div className="logButtons">
-            
-                
+
                     <Link to="/" onClick={handleClick}>Cerrar sesión</Link>
-                    
-                
-            
+ 
                 
         </div>
         </header>

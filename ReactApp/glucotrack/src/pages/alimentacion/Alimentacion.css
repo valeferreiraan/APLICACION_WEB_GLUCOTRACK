@@ -10,8 +10,8 @@
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); /* Adjust the size as needed */
-    grid-gap: 40px; /* Adjust the gap between squares */
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); 
+    grid-gap: 40px; 
     margin: 5% 0%;
     max-width: 1300px;
   }
@@ -26,8 +26,8 @@
     z-index: 1; 
     border-radius: 11px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    opacity: 0; /* Set initial opacity to 0 */
-    transition: opacity 0.3s ease; /* Transition for opacity */
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
   }
 
 

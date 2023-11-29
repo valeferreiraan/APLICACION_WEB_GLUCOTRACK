@@ -66,10 +66,10 @@
     .nav-link {
         width: 100%;
         text-align: center;
-        border-bottom: 1px solid #fff; /* Otra opción para separar los enlaces */
+        border-bottom: 1px solid #fff; 
     }
 
     .nav-link:last-child {
-        border-bottom: none; /* Elimina la línea inferior del último enlace */
+        border-bottom: none; 
     }
 }

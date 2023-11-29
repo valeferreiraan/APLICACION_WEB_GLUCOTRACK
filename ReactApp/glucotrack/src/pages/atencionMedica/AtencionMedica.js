@@ -31,8 +31,6 @@ function AtencionMedica(){
         };
       
         const enviarFormulario = () => {
-          // Aquí puedes agregar la lógica para enviar los datos al servidor o realizar cualquier otra acción necesaria.
-          // Por ahora, solo mostramos el modal.
           console.log('Formulario enviado')
           setModalVisible(true);
         };

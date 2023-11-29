@@ -20,8 +20,8 @@ function Home(){
             <Nav/>
             <Subheader 
             image='https://consultorsalud.com/wp-content/uploads/2022/12/shutterstock_1726536925.jpg'
-            title='Bienvenido'
-            subtitle='Tu última medida fue'
+            title='¡Bienvenido Arturo!'
+            subtitle='Tu última medida fue 86mg/dL'
             icon={IconHome}/>
             <div className='content'>
                 <div className='services'>

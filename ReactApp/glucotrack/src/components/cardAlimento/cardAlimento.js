@@ -4,6 +4,7 @@ import React, { useState  } from 'react';
 
 function CardAlimento({image, title}){
     const [counter, setCounter] = useState(0);
+    const [modalVisible, setModalVisible] = useState(false);
     
     const cardStyle = {
         backgroundImage:`url(${image})`,
@@ -45,8 +46,12 @@ function CardAlimento({image, title}){
       };
 
       const handleConfirm = () => {
-        console.log('Confirmation button clicked!');
         setCardVisible(false);
+        setModalVisible(true);
+      };
+
+      const cerrarModal = () => {
+        setModalVisible(false);
       };
 
     return(
@@ -70,6 +75,17 @@ function CardAlimento({image, title}){
                     <button onClick={handleConfirm} className='buttonConfirmar'>Confirmar</button>
                 </div>
             </div>
+            {modalVisible && (
+            <div className="modal modalAlimentacion">
+              <div className="modal-content">
+                
+                
+                <h4>¡Alimento registrado!</h4>
+                
+                <button onClick={cerrarModal}>Cerrar</button>
+              </div>
+            </div>
+          )}
         </div>
     )
 }

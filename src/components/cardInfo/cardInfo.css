@@ -1,0 +1,83 @@
+.cajaprincipal{
+    width: 300px;
+    height: 400px;
+    background-color: var(--azulClaro1);
+    color: #ffffff;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0 0 5px #707070;
+    /*overflow: hidden;*/
+    border-radius: 20px;
+}
+
+
+
+.info {
+    padding: 25px;
+}
+
+.info img{
+    width: 90px;
+    margin-bottom: 10px;
+}
+
+.info h3{
+    font-size: 25px;
+    margin: 10px 0;
+    min-height: 60px;
+}
+
+.info p{
+    margin: 0;
+    flex-grow: 1; /* Hace que el párrafo ocupe todo el espacio vertical restante */
+    display: flex;
+    align-items: center;
+}
+
+
+/*para el popover*/
+.popover-wrapper{
+    padding: 10px;
+    text-align: center;
+   
+}
+
+.popover-content{
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(0,5px);
+    background-color: var(--azulmuyClaro);
+    color: var(--moradoOscuro);
+    padding: 10px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    border-radius: 20px;
+    width: auto;
+}
+
+.popover-wrapper a{
+     /* Hace que el párrafo ocupe todo el espacio vertical restante */
+    
+    color: white;
+    margin: 0;
+    
+}
+
+
+
+.popover-content::before{
+    top: -30px;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent #bfbfbf transparent;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.popover-wrapper:hover .popover-content{
+
+    
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0, -2px);
+    transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+}

@@ -1,0 +1,56 @@
+:root{
+    --azulprimario: #2F58CD;
+    --azulverdoso: #3795BD;
+    --moradoOscuro: #3A1078;
+    --morado: #4E31AA;
+    --azulClaro1: #42C2FF;
+    --azulClaro2: #85F4FF;
+    --azulclaro3: #B8FFF9;
+    --azulmuyClaro: #EFFFFD;
+    --nivelNormal: #468B97;
+    --nivelAlto: #EF6262;
+    --nivelBajo: #F3AA60;
+
+    --grisShadows: #707070;
+}
+
+
+.cardResumen {
+    background-color: var(--azulClaro1);
+    padding-top: 2em;
+    color: white;
+    padding-bottom: 2em;
+}
+
+
+.unidades{
+    color: white;
+}
+
+.titleResumen{
+    text-align: center;
+    margin: 0 auto 2em;
+}
+
+.containerBoton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botonResumen{
+    padding: 2rem;
+    background-color: var(--azulprimario);
+    margin-bottom: 1%;
+    border-radius: 11px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transition: 0.2s;
+    color: white;
+    margin-bottom: 2%;
+}
+
+
+.botonResumen:hover{
+    background-color: #3795BD;
+    color: white;
+}

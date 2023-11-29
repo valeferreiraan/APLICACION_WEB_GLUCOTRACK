@@ -1,0 +1,47 @@
+:root{
+    --azulprimario: #2F58CD;
+    --azulverdoso: #3795BD;
+    --moradoOscuro: #3A1078;
+    --morado: #4E31AA;
+    --azulClaro1: #42C2FF;
+    --azulClaro2: #85F4FF;
+    --azulclaro3: #B8FFF9;
+    --azulmuyClaro: #EFFFFD;
+    --nivelNormal: #468B97;
+    --nivelAlto: #EF6262;
+    --nivelBajo: #F3AA60;
+
+    --grisShadows: #707070;
+}
+
+
+.gridDatos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.containerGridDatos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: white; 
+    margin-bottom: 5%;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.divBotonGestion{
+    display: flex; 
+    justify-content: center;
+}
+
+.buttonGestionusuarios{
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+    }

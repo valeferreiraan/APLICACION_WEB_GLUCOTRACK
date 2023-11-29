@@ -1,0 +1,78 @@
+header {
+    background-color: var(--azulprimario);
+    color: #fff;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+
+
+.logo img {
+    width: 70px;
+    padding-left: 10px;
+
+}
+
+.title h1 {
+    
+    font-weight: 600;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.logButtons {
+    display: flex;
+    gap: 10px;
+    margin-right: 10px; 
+    margin-left: auto;/* Margen a la derecha para separar los botones del borde derecho del encabezado */
+}
+
+.logButtons a {
+    background-color: var(--azulClaro1);
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.logButtons Link {
+    background-color: var(--azulClaro1);
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.logButtons a:hover {
+    background-color: var(--azulClaro2);
+    color: var(--moradoOscuro);
+}
+
+/*
+.logButtons link {
+    background-color: var(--azulClaro1);
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.logButtons link:hover {
+    background-color: var(--azulClaro2);
+    color: var(--moradoOscuro);
+}
+*/

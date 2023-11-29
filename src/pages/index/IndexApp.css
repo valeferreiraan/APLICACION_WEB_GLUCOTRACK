@@ -1,0 +1,39 @@
+body{
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    color: black;
+}
+
+.content{
+    margin: 20px 20px 100px 20px
+}
+
+.content h1{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    color: var(--morado);
+    font-weight: bold;
+}
+
+.services{
+    display: flex;
+    margin: 20px 20px 20px 20px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.caja2{
+    background-color: var(--azulprimario);
+    
+
+}
+
+@media (max-width: 768px) {
+    .services{
+        flex-direction: column;
+    }
+}

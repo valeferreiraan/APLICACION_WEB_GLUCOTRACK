@@ -1,0 +1,23 @@
+.nameandlogo{
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    border-bottom: 2px solid var(--azulverdoso);
+}
+
+.nameandlogo img {
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+
+.nameandlogo h1 {
+    
+    font-weight: 600;
+    margin-top:20px;
+    font-size: 35px;
+    margin-left: 10px;
+    color: var(--morado);
+}

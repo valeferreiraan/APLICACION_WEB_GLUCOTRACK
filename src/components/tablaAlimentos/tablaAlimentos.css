@@ -1,0 +1,65 @@
+:root{
+    --azulprimario: #2F58CD;
+    --azulverdoso: #3795BD;
+    --moradoOscuro: #3A1078;
+    --morado: #4E31AA;
+    --azulClaro1: #42C2FF;
+    --azulClaro2: #85F4FF;
+    --azulclaro3: #B8FFF9;
+    --azulmuyClaro: #EFFFFD;
+    --nivelNormal: #468B97;
+    --nivelAlto: #EF6262;
+    --nivelBajo: #F3AA60;
+
+    --grisShadows: #707070;
+}
+
+
+.customTable  {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; 
+    margin-bottom: 3%;
+    border-radius: 11px;
+    overflow: hidden;
+  }
+  
+  .customTable th, .customTable td {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .customTable th {
+    background-color: var(--azulprimario);
+    cursor: pointer;
+    font-size: 1.5rem; 
+    color: white;
+    transition: 0.3s;
+  }
+  
+  .customTable th:hover {
+    background-color:#3795BD;
+  }
+
+  .headerHora{
+    border-top-left-radius: 11px;
+    border-color: none;
+  }
+
+  .totalTabla{
+    font-weight: 700;
+    background-color: var(--azulverdoso);
+    color: white;
+  }
+
+  @media (max-width: 768px) {
+    .customTable th, .customTable td {
+      border: 1px solid #ddd;
+      padding: 15px;
+      text-align: left;
+      font-size: 1rem;
+    }
+
+
+  }

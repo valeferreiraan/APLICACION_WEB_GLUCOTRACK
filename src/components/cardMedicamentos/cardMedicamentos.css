@@ -1,0 +1,80 @@
+.containerMedicamentos{
+    width: 400px;
+    background-color: var(--azulverdoso);
+    margin: 20px; 
+    padding: 2%;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    color: white;
+}
+
+
+.buttonAgregar{
+    width: 100px;;
+}
+
+input{
+    font-family: 'Aleo', sans-serif;
+    transition: 0.5s;
+    padding: .8em;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+input:disabled{
+    color: rgb(246, 238, 238);
+}
+
+.inputMedicamento{
+    margin-top: 15px;
+}
+
+
+.divInputHora{
+    margin-left: 20px;
+}
+
+.inputHora{
+    margin-left: 10px;
+}
+
+.buttonEliminarTiempo{
+    margin-left: 10px;
+    transition: 0.5s;
+}
+
+.buttonEliminarTiempo:hover{
+    background-color: var(--nivelAlto);
+}
+
+.buttonAgregarTiempo{
+    padding: 5px;
+    width: 110px;
+}
+
+.divbuttonAgregarTiempo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonQuitarMedicamento{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 120px;
+    padding: 10px;
+    height: 50px;
+    transition: 0.5s;
+}
+
+
+.buttonQuitarMedicamento:hover{
+    background-color: var(--nivelAlto);
+}
+
+
+.buttonAgregarMedicamento{
+    width: 100px;
+    height: auto;
+}

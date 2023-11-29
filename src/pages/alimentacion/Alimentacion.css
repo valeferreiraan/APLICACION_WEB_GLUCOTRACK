@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@400;900&display=swap');
+
+
+
+.containerGrid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); /* Adjust the size as needed */
+    grid-gap: 40px; /* Adjust the gap between squares */
+    margin: 5% 0%;
+    max-width: 1300px;
+  }
+
+
+  .selector {
+    display: none;
+    position: absolute;
+    background: #EFFFFD;
+    width: 300px;
+    height: 200px;
+    z-index: 1; 
+    border-radius: 11px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    opacity: 0; /* Set initial opacity to 0 */
+    transition: opacity 0.3s ease; /* Transition for opacity */
+  }
+
+
+
+  @media (max-width: 1536px) {
+    .grid {
+      grid-template-columns: repeat(3, minmax(100px, 2fr));
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .grid {
+      grid-template-columns: repeat(2, minmax(100px, 2fr));
+    }
+  }

@@ -1,0 +1,131 @@
+:root{
+  --azulprimario: #2F58CD;
+  --azulverdoso: #3795BD;
+  --moradoOscuro: #3A1078;
+  --morado: #4E31AA;
+  --azulClaro1: #42C2FF;
+  --azulClaro2: #85F4FF;
+  --azulclaro3: #B8FFF9;
+  --azulmuyClaro: #EFFFFD;
+  --nivelNormal: #468B97;
+  --nivelAlto: #EF6262;
+  --nivelBajo: #F3AA60;
+
+  --grisShadows: #707070;
+}
+
+.cardAlimento {
+    position: relative;
+    width: 250px; 
+    height: 250px; 
+    background-size: cover;
+    background-position: center;
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+  }
+
+
+.cardAlimento::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(66, 194, 255, 0.6);
+    border-radius: 11px;
+ }
+
+
+.Alimento {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    margin: 0;
+  }
+
+.Selector{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:var(--azulverdoso);
+  padding: 20px;
+  border-radius: 11px;
+  width: 300px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+}
+
+.containerSelector{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1em;
+  max-width: 250px;
+}  
+
+.titleSelector{
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.buttonSelector{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.inputSelectorAlimento{
+  width: 30%;
+  height: 20px;
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+}
+
+
+.buttonConfirmar{
+  margin-top: 10px;
+  font-family: 'Aleo', serif;
+  color: white;
+  background-color: var(--azulprimario);
+  border: none;
+  padding: 10px;
+  border-radius: 11px;
+  transition: 0.3s;
+}
+
+.buttonConfirmar:hover{
+  background-color: var(--azulClaro1);
+}
+
+.buttonValor{
+  background-color: var(--azulprimario);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 40px;
+  height: 40px;
+  transition: background-color 0.3s ease
+}
+
+.buttonValor:active{
+  background-color: #42C2FF;
+}
+
+.modalAlimentacion{
+  z-index: 1;
+}

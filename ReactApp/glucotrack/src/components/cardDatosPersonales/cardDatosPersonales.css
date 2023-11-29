@@ -89,11 +89,11 @@ button {
 
 
 .locked {
-    background-color: var(--azulprimario); /* Change the color for locked state */
+    background-color: var(--azulprimario); 
   }
   
   .unlocked {
-    background-color:var(--morado)/* Change the color for unlocked state */
+    background-color:var(--morado)
   }
 
 

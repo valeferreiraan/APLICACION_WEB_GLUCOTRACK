@@ -7,7 +7,7 @@ const BurgerMenu = () => {
 
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
-    // Aquí puedes agregar lógica adicional, como cambiar el estado del menú en tu componente principal.
+    
   };
 
   return (

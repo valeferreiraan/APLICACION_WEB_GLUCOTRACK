@@ -10,9 +10,9 @@ const ForgotPass = ({ open, onClose }) => {
   };
 
   const handleSendButtonClick = () => {
-    // Agrega la lógica para enviar el correo aquí
+    
     console.log('Enviar correo a:', email);
-    onClose(); // Cierra el modal después de enviar
+    onClose(); 
   };
 
   return (

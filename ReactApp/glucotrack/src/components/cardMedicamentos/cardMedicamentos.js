@@ -64,7 +64,7 @@ const CardMedicamentos = ({defaultMedicines }) => {
         <div className='headerBoxDatos'>
           <h2>Medicamentos</h2>
           <button onClick={editarGuardar}
-          className={isButtonClicked ? (isDisabled ? 'locked' : 'unlocked') : ''}>
+          className={isButtonClicked ? (isDisabled ? 'locked' : 'unlocked') : 'buttonEditar'}>
             {isDisabled ? 'Editar' : 'Guardar'}
           </button>
         </div>

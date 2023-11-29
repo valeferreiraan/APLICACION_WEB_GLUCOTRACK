@@ -19,7 +19,7 @@ scale: 1.2;
   }
 
 .sendData label, select {
-    
+    border-radius: 5px;
     margin-bottom: 10px;
     color: black;
 
@@ -41,16 +41,16 @@ scale: 1.2;
     padding: 10px 20px;
     cursor: pointer;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
+    border-radius: 10px;
     margin-left: 10px;
     margin-right: 10px;
     text-decoration: none;
-font-family: 'Aleo', serif;
+  font-family: 'Aleo', serif;
 
   }
 
   .sendData button:hover{
-    background-color: var(--azulClaro2);
+    background-color: var(--azulClaro);
     color: var(--moradoOscuro);
   }
   

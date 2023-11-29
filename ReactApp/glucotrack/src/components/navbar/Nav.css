@@ -56,6 +56,9 @@
     color: var(--morado) !important;
 }
 
+.burger-menu{
+    display: none;
+}
 
 
 @media (max-width: 768px) {
@@ -67,10 +70,15 @@
     .nav-link {
         width: 100%;
         text-align: center;
-        border-bottom: 1px solid #fff; /* Otra opción para separar los enlaces */
     }
 
-    .nav-link:last-child {
-        border-bottom: none; /* Elimina la línea inferior del último enlace */
-    }
+    
+    .burger-menu {
+        display: flex; 
+        
+      }
+
+    
+
+     
 }

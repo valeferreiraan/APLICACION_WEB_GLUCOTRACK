@@ -4,6 +4,7 @@ import Header from '../../components/headerLogged/Header';
 import Subheader from '../../components/subheader/subheader';
 import saludIcon from './clinic-solid-84.png';
 import Nav from '../../components/navbarLogged/Nav';
+import Footer from '../../components/footer/Footer';
 
 function Salud() {
   return (
@@ -15,10 +16,9 @@ function Salud() {
         title = 'Salud'
         subtitle='Mantente al tanto con estos tips'
         icon = {saludIcon}/>
-        <div className='content'>
-            <HealthTips />
-        </div>
-      
+        <HealthTips />
+        
+        <Footer />
     </div>
   );
 }

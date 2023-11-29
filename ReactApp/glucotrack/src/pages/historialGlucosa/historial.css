@@ -24,18 +24,33 @@
     font-weight: bold;
 }
 
+.default{
+    
+        
+    background-color: var(--azulclaro3);
+    color: var(--morado);
+
+}
+
+.active{
+    background-color: var(--azulverdoso);
+    color: white;
+}
+
+
+
 .changeGrafico button:hover{
     background-color: var(--azulClaro2) !important;
     color: var(--morado);
 }
 
 .resumen{
-    background-color: var(--azulClaro2);
+    background-color: white;
     padding: 1.5%;
     border-radius: 25px;
     width: 400px;
     text-align: center;
     color: var(--morado);
-    box-shadow: 10px 10px 10px rgb(85, 84, 84);
+    box-shadow: 10px 10px 10px 10px rgb(142, 140, 140);
     scale: 1.2;
 }

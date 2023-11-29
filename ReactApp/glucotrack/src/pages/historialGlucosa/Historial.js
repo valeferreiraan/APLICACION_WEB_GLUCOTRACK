@@ -12,11 +12,13 @@ import iconChart from './img/bar-chart-regular-84.png';
 
 function Historial(){
 
-    const [selectedChart, setSelectedChart] = useState('semana');
+    const [selectedChart, setSelectedChart] = useState('dia');
 
     const handleButtonClick = (chartType) => {
       setSelectedChart(chartType);
     };
+
+   
 
     return(
         <div>
@@ -37,9 +39,15 @@ function Historial(){
                 </div>
                 <div className='changeGrafico'>
                     <h3>Revisa tus mediciones por:</h3>
-                    <button onClick={() => handleButtonClick('dia')}>Día</button>
-                    <button onClick={() => handleButtonClick('semana')}>Semana</button>
-                    <button onClick={() => handleButtonClick('mes')}>Mes</button>
+                    <button 
+                    className={`button ${selectedChart === 'dia' ? 'active' : 'default'}`} 
+                    onClick={() => handleButtonClick('dia')}>Día</button>
+                    <button 
+                    className={`button ${selectedChart === 'semana' ? 'active' : 'default'}`}
+                    onClick={() => handleButtonClick('semana')}>Semana</button>
+                    <button 
+                    className={`button ${selectedChart === 'mes' ? 'active' : 'default'}`}
+                    onClick={() => handleButtonClick('mes')}>Mes</button>
                 </div>
                 <div className='resumen'>
                     <h3>Resumen</h3>
